@@ -4,8 +4,8 @@
   <BlastOutput_program>blastp</BlastOutput_program>
   <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
-  <BlastOutput_db>Protein</BlastOutput_db>
-  <BlastOutput_query-ID>Query_32631</BlastOutput_query-ID>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_56813</BlastOutput_query-ID>
   <BlastOutput_query-def>sp|P0DTD2.1|ORF9B_SARS2 RecName: Full=ORF9b protein; Short=ORF9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b; AltName: Full=Protein 9b</BlastOutput_query-def>
   <BlastOutput_query-len>97</BlastOutput_query-len>
   <BlastOutput_param>
@@ -20,20 +20,1420 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_32631</Iteration_query-ID>
+  <Iteration_query-ID>Query_56813</Iteration_query-ID>
   <Iteration_query-def>sp|P0DTD2.1|ORF9B_SARS2 RecName: Full=ORF9b protein; Short=ORF9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b; AltName: Full=Protein 9b</Iteration_query-def>
   <Iteration_query-len>97</Iteration_query-len>
 <Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P0DTD2.1|</Hit_id>
+  <Hit_def>RecName: Full=ORF9b protein; Short=ORF9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b; AltName: Full=Protein 9b [Severe acute respiratory syndrome coronavirus 2] &gt;pdb|6Z4U|A X-ray Crystallographic Structure of Orf9b from SARS-CoV-2 [Severe acute respiratory syndrome coronavirus 2] &gt;pdb|6Z4U|B X-ray Crystallographic Structure of Orf9b from SARS-CoV-2 [Severe acute respiratory syndrome coronavirus 2] &gt;pdb|7KDT|B Human Tom70 in complex with SARS CoV2 Orf9b [Severe acute respiratory syndrome coronavirus 2]</Hit_def>
+  <Hit_accession>P0DTD2</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>1.516e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_hseq>
+      <Hsp_midline>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q3LZX3.1|</Hit_id>
+  <Hit_def>RecName: Full=Protein 9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b [Bat SARS coronavirus HKU3] &gt;gb|AAY88875.1| hypothetical protein orf9b [Bat SARS coronavirus HKU3-1] &gt;gb|AAZ41349.1| hypothetical protein [Bat SARS coronavirus HKU3-3]</Hit_def>
+  <Hit_accession>Q3LZX3</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>5.02926e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKVNVVPPALHLVDPQIQMTITRMEDAVVHDQNNAGPKVYPIILRLGSQLSLSMAKRNLDSLEARAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK++ + PAL LVDPQIQ+ +TRME+AV  DQNN GPKVYPIILRLGS LSL+MA++ L+SLE +AFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AHX37567.1|</Hit_id>
+  <Hit_def>protein 13 [Rhinolophus affinis coronavirus]</Hit_def>
+  <Hit_accession>AHX37567</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>3.65384e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNKINVVPPALHLVDPQIQLTITRMENAVGQGQNSADPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP KI+ + PAL LVDPQIQL +TRMENAVG+ QN+  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAZ41338.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bat SARS coronavirus HKU3-2] &gt;gb|QND76031.1| ORF9b [Bat SARS coronavirus HKU3] &gt;gb|QND76045.1| ORF9b [Bat SARS coronavirus HKU3]</Hit_def>
+  <Hit_accession>AAZ41338</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>6.48069e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKVNVVPPALHLVDPQIQMTITRMEDAVVHGQNNAGPKVYPIILRLGSQLSLSMAKRNLDSLEARAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK++ + PAL LVDPQIQ+ +TRME+AV   QNN GPKVYPIILRLGS LSL+MA++ L+SLE +AFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|ADE34788.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bat SARS coronavirus HKU3-9] &gt;gb|ADE34799.1| hypothetical protein [Bat SARS coronavirus HKU3-10] &gt;gb|ADE34810.1| hypothetical protein [Bat SARS coronavirus HKU3-11]</Hit_def>
+  <Hit_accession>ADE34788</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.15911e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKVNVVPPALHLVDPQIQMTITRMEDAVVHGQNSAGPKVYPIILRLGSQLSLSMAKRNLDSLEAKAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK++ + PAL LVDPQIQ+ +TRME+AV   QN+ GPKVYPIILRLGS LSL+MA++ L+SLE KAFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AAZ67041.1|</Hit_id>
+  <Hit_def>ORF9a [Bat SARS CoV Rm1/2004]</Hit_def>
+  <Hit_accession>AAZ67041</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>1.81742e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKTSVVPPALHLVDPQIQLTITRMEDAVVHGQNNAVPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK S + PAL LVDPQIQL +TRME+AV   QNN  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AVP78050.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bat SARS-like coronavirus]</Hit_def>
+  <Hit_accession>AVP78050</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>2.19e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKTRVVHPALHLVDPQIQVTIAKTESAMVHDLNNVDPKAYPIILHLGSPLSLNMARKTLRSLEGKVFQLTPIALKMTKLATTVELPDEFVAVTVK</Hsp_hseq>
+      <Hsp_midline>MDPK   +HPAL LVDPQIQ+ + + E+A+  D NNV PK YPIIL LGSPLSLNMARKTL SLE K FQLTPIA++MTKLATT ELPDEFV VTVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AVP78039.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bat SARS-like coronavirus]</Hit_def>
+  <Hit_accession>AVP78039</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>2.72725e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKTNVVHPALHLVDPQIQVTIAKTESAMVHDLNNVDPKAYPIILHLGSPLSLNMARKTLRSLEGKVFQSTPIALKMTKLATTVELPDEFVVVTVK</Hsp_hseq>
+      <Hsp_midline>MDPK + +HPAL LVDPQIQ+ + + E+A+  D NNV PK YPIIL LGSPLSLNMARKTL SLE K FQ TPIA++MTKLATT ELPDEFVVVTVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|ADE34731.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bat SARS coronavirus HKU3-4] &gt;gb|ADE34742.1| hypothetical protein [Bat SARS coronavirus HKU3-5] &gt;gb|ADE34753.1| hypothetical protein [Bat SARS coronavirus HKU3-6] &gt;gb|ADE34832.1| hypothetical protein [Bat SARS coronavirus HKU3-13]</Hit_def>
+  <Hit_accession>ADE34731</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>3.3963e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKVNVVPPALHLVDPQIQMTITRMEDAVVHGQNSAGPKVYPIILRLGSQLSLSMAKRNLDSLEARAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK++ + PAL LVDPQIQ+ +TRME+AV   QN+ GPKVYPIILRLGS LSL+MA++ L+SLE +AFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|ARO76391.1|</Hit_id>
+  <Hit_def>protein 13 [Severe acute respiratory syndrome-related coronavirus]</Hit_def>
+  <Hit_accession>ARO76391</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>7.2202e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNKTNVVPPALHLVDPQIQLTITRMEDAMGQGQNNADPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP K + + PAL LVDPQIQL +TRME+A+G+ QNN  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|ADE34821.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bat SARS coronavirus HKU3-12]</Hit_def>
+  <Hit_accession>ADE34821</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>1.18602e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKVNVVPPALHLVDPQIQMTITRMEDAVVHGQNSAGPKLYPIILRLGSQLSLSMAKRNLDSLEARAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK++ + PAL LVDPQIQ+ +TRME+AV   QN+ GPK+YPIILRLGS LSL+MA++ L+SLE +AFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|ADE34764.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bat SARS coronavirus HKU3-7] &gt;gb|ADE34777.1| hypothetical protein [Bat SARS coronavirus HKU3-8]</Hit_def>
+  <Hit_accession>ADE34764</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>3.59109e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKTNVVLPALHLVDPQIQLTITRMEDAVVHGQNNAGPRVYPIILRLGSQLSLSMARRNLDFLEARVFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK + + PAL LVDPQIQL +TRME+AV   QNN GP+VYPIILRLGS LSL+MAR+ L+ LE + FQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P0C5A6.1|</Hit_id>
+  <Hit_def>RecName: Full=Protein 9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b [Bat CoV 279/2005]</Hit_def>
+  <Hit_accession>P0C5A6</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>7.08872e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKTSVVPPALHLVDPQIQLTIIRMEDAVVHGQSNAVPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK S + PAL LVDPQIQL + RME+AV   Q+N  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|YP_009825062.1|</Hit_id>
+  <Hit_def>ORF9b protein [SARS coronavirus Tor2] &gt;sp|P59636.1| RecName: Full=ORF9b protein; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b; AltName: Full=Protein 9b [Severe acute respiratory syndrome-related coronavirus] &gt;gb|AAP13574.1| unknown [SARS coronavirus CUHK-W1] &gt;gb|AAP30038.1| putative uncharacterized protein 5 [SARS coronavirus BJ01] &gt;gb|AAP33708.1| Orf9b [SARS coronavirus Frankfurt 1] &gt;gb|AAP37025.1| unknown [SARS coronavirus TW1] &gt;gb|AAP50496.1| putative protein [SARS coronavirus FRA] &gt;gb|AAP51235.1| BGI-PUP7 [SARS coronavirus GD01] &gt;gb|AAP69659.1| uncharacterized protein 9b [SARS coronavirus ZJ01] &gt;gb|AAP72985.1| Orf9b [SARS coronavirus HSR 1] &gt;gb|AAP94745.1| unknown [SARS coronavirus CUHK-AG01] &gt;gb|AAP94756.1| unknown [SARS coronavirus CUHK-AG02] &gt;gb|AAP94767.1| unknown [SARS coronavirus CUHK-AG03] &gt;gb|AAQ94071.1| orf9b [SARS coronavirus AS] &gt;gb|AAR86786.1| unknown [SARS coronavirus ShanghaiQXC2] &gt;gb|AAR86796.1| unknown [SARS coronavirus ShanghaiQXC1] &gt;gb|AAR87508.1| unknown [SARS coronavirus TW10] &gt;gb|AAR87519.1| unknown [SARS coronavirus TW11] &gt;gb|AAR87530.1| unknown [SARS coronavirus TW2] &gt;gb|AAR87541.1| unknown [SARS coronavirus TW3] &gt;gb|AAR87552.1| unknown [SARS coronavirus TW4] &gt;gb|AAR87563.1| unknown [SARS coronavirus TW5] &gt;gb|AAR87574.1| unknown [SARS coronavirus TW6] &gt;gb|AAR87585.1| unknown [SARS coronavirus TW7] &gt;gb|AAR87596.1| unknown [SARS coronavirus TW8] &gt;gb|AAR87607.1| unknown [SARS coronavirus TW9] &gt;gb|AAR91594.1| putative uncharacterized protein 5 [SARS coronavirus NS-1] &gt;gb|AAS00012.1| putative protein [SARS coronavirus GZ02] &gt;gb|AAS01075.1| orf13 [SARS coronavirus CUHK-L2] &gt;gb|AAT52331.1| 9b [SARS coronavirus LLJ-2004] &gt;gb|ABA02278.1| uncharacterized protein 9b [SARS coronavirus ZJ0301] &gt;gb|ACB69857.1| putative protein [SARS coronavirus ZJ02] &gt;gb|ACJ60690.1| ORF 9b [recombinant SARS coronavirus] &gt;gb|ACQ82736.1| hypothetical protein sars9b [SARS coronavirus P2] &gt;gb|ACZ71763.1| hypothetical protein sars9b [SARS coronavirus ExoN1] &gt;gb|ACZ71778.1| hypothetical protein sars9b [SARS coronavirus wtic-MB] &gt;gb|ACZ72001.1| hypothetical protein sars9b [SARS coronavirus MA15 ExoN1] &gt;gb|ACZ72046.1| hypothetical protein sars9b [SARS coronavirus MA15] &gt;gb|ADC35493.1| hypothetical protein Orf9b [SARS coronavirus HKU-39849] &gt;gb|AYV99758.1| ORF9b [SARS coronavirus Urbani] &gt;dbj|BAC81359.1| hypothetical protein [SARS coronavirus TWH] &gt;dbj|BAC81373.1| hypothetical protein [SARS coronavirus TWJ] &gt;dbj|BAC81401.1| hypothetical protein [SARS coronavirus TWS] &gt;dbj|BAC81415.1| hypothetical protein [SARS coronavirus TWY]</Hit_def>
+  <Hit_accession>YP_009825062</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>1.30651e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTNVVPPALHLVDPQIQLTITRMEDAMGQGQNSADPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + + + PAL LVDPQIQL +TRME+A+G+ QN+  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AAZ67044.1|</Hit_id>
+  <Hit_def>ORF13 [Bat SARS coronavirus Rp1]</Hit_def>
+  <Hit_accession>AAZ67044</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>3.08221e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKTSVVLPALHLVDPQIQLTTTRMEDAVVHGQNNADLKVYPIILRLGSQLSLSMVRRNLDSLEARAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK S + PAL LVDPQIQL  TRME+AV   QNN   KVYPIILRLGS LSL+M R+ L+SLE +AFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AAU04659.1|</Hit_id>
+  <Hit_def>orf12 [SARS coronavirus civet010] &gt;gb|AAV49740.1| hypothetical protein [SARS coronavirus B039]</Hit_def>
+  <Hit_accession>AAU04659</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>3.10744e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTNVVPPALHLVDPQIQLTTTRMEDAMGQGQNSADPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + + + PAL LVDPQIQL  TRME+A+G+ QN+  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AAT76156.1|</Hit_id>
+  <Hit_def>Orf5 [SARS coronavirus TJF]</Hit_def>
+  <Hit_accession>AAT76156</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>3.74433e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTNVVPPALHLVDPQIQLTITRMEDAMGQGQNSADPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVQMTKLASTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + + + PAL LVDPQIQL +TRME+A+G+ QN+  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLA+TEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>dbj|BAC81387.1|</Hit_id>
+  <Hit_def>hypothetical protein [SARS coronavirus TWK]</Hit_def>
+  <Hit_accession>BAC81387</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>7.07341e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTNVVPPALHLVDPQIQLTITRMEDAMGQGQNSADPKVYPIILRLGSQLSLSMVRRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + + + PAL LVDPQIQL +TRME+A+G+ QN+  PKVYPIILRLGS LSL+M R+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|ACB69869.1|</Hit_id>
+  <Hit_def>putative protein [SARS coronavirus BJ182a] &gt;gb|ACB69880.1| putative protein [SARS coronavirus BJ182b] &gt;gb|ACB69891.1| putative protein [SARS coronavirus BJ182-4] &gt;gb|ACB69902.1| putative protein [SARS coronavirus BJ182-8] &gt;gb|ACB69913.1| putative protein [SARS coronavirus BJ182-12]</Hit_def>
+  <Hit_accession>ACB69869</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>7.72204e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTNVVPPALHLVNPQIQLTITRMEDAMGQGQNSADPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + + + PAL LV+PQIQL +TRME+A+G+ QN+  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AAV91641.1|</Hit_id>
+  <Hit_def>orf12 [SARS coronavirus A022]</Hit_def>
+  <Hit_accession>AAV91641</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.85678e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTNVVPPALHLVDPQIQLTTTRVEDAMGQGQNSADPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + + + PAL LVDPQIQL  TR+E+A+G+ QN+  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|AGT21089.1|</Hit_id>
+  <Hit_def>non-structural protein 9b [SARS coronavirus ExoN1]</Hit_def>
+  <Hit_accession>AGT21089</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>2.41583e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTNVVPPALHLVDPQIQLTITRMEDAMGQGQNSADPKVYPIILRLGSQLSLSMARRNLDSPEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + + + PAL LVDPQIQL +TRME+A+G+ QN+  PKVYPIILRLGS LSL+MAR+ L+S E +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|Q3I5I6.1|</Hit_id>
+  <Hit_def>RecName: Full=Protein 9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b [Bat SARS CoV Rp3/2004] &gt;gb|AAZ67047.1| ORF13 [Bat SARS coronavirus Rp2] &gt;gb|AAZ67060.1| ORF13 [Bat SARS CoV Rp3/2004]</Hit_def>
+  <Hit_accession>Q3I5I6</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>3.15231e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKTSVVLPALHLVDPQIQLTTTRMEDAVVHGQNNADLKVYPIILRLGSQLSLSMVRRNLDSLEVRVFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDPK S + PAL LVDPQIQL  TRME+AV   QNN   KVYPIILRLGS LSL+M R+ L+SLE + FQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|AAU04643.1|</Hit_id>
+  <Hit_def>orf12 [Civet SARS CoV 007/2004]</Hit_def>
+  <Hit_accession>AAU04643</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.12157e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTNVVPPALHLVDLQIQLTTTRMEDAMGQGQNSADPKVYPIILRLGSQLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + + + PAL LVD QIQL  TRME+A+G+ QN+  PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|ACU31040.1|</Hit_id>
+  <Hit_def>hypothetical protein [SARS coronavirus Rs_672/2006]</Hit_def>
+  <Hit_accession>ACU31040</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.19785e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>MDP-KISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPNQTSVVPPALHLVDPQIQLTITRMEDAVVHGQSNADPKVYPIILRLGSQLSLSTARRNLDSLEARAFQSTPIVVKMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>MDP + S + PAL LVDPQIQL +TRME+AV   Q+N  PKVYPIILRLGS LSL+ AR+ L+SLE +AFQ TPI V+MTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AAZ67037.1|</Hit_id>
+  <Hit_def>ORF9a [Bat SARS CoV Rf1/2004]</Hit_def>
+  <Hit_accession>AAZ67037</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>4.14801e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDPKTNVVPPALHLVDPQIQLTITRMEDAVVHGQNNADPRVYPIILRLGSQLSLSMVRKDSNSLKAREFLSTPIVAEMTKLATTEELPDEFVVVTVK</Hsp_hseq>
+      <Hsp_midline>MDPK + + PAL LVDPQIQL +TRME+AV   QNN  P+VYPIILRLGS LSL+M RK  NSL+ + F  TPI  +MTKLATTEELPDEFVVVTVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|ANA96036.1|</Hit_id>
+  <Hit_def>9a protein [Bat coronavirus]</Hit_def>
+  <Hit_accession>ANA96036</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>2.82335e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MEPKTNVVPPALHLVDLQIQLTITRMEDAVVHGQNNADPRVYPIIPRLGSQLSLSMVRKDSNSLKAREFLSTPIVAQMTKLATIEELPDEFVVVTVK</Hsp_hseq>
+      <Hsp_midline>M+PK + + PAL LVD QIQL +TRME+AV   QNN  P+VYPII RLGS LSL+M RK  NSL+ + F  TPI  QMTKLAT EELPDEFVVVTVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|AIA62286.1|</Hit_id>
+  <Hit_def>hypothetical protein ORF9a [BtRf-BetaCoV/JL2012]</Hit_def>
+  <Hit_accession>AIA62286</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>1.00681e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MEPKTNVVPPALHLVDLQIQLTITRMEDAVVHGQNNADPRVYPIIPRLGSQLSLSMVRKDSNSLKAREFLSTPIVAEMTKLATIEELPDEFVVVTVK</Hsp_hseq>
+      <Hsp_midline>M+PK + + PAL LVD QIQL +TRME+AV   QNN  P+VYPII RLGS LSL+M RK  NSL+ + F  TPI  +MTKLAT EELPDEFVVVTVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|2CME|B</Hit_id>
+  <Hit_def>The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus]</Hit_def>
+  <Hit_accession>2CME_B</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>1.31512e-31</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>PALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>PALHLVDPQIQLTITRAD-----------PKVYPIILRLGSNLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>PAL LVDPQIQL +TR +           PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|2CME|A</Hit_id>
+  <Hit_def>The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus]</Hit_def>
+  <Hit_accession>2CME_A</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>2.5792e-30</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>PALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>PALHLVDPQIQLTIT------------ADPKVYPIILRLGSNLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>PAL LVDPQIQL +T              PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|2CME|C</Hit_id>
+  <Hit_def>The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus] &gt;pdb|2CME|D The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus] &gt;pdb|2CME|F The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus] &gt;pdb|2CME|H The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus]</Hit_def>
+  <Hit_accession>2CME_C</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>3.42546e-30</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>PALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>PALHLVDPQIQLTIT-------------DPKVYPIILRLGSNLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>PAL LVDPQIQL +T              PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|2CME|E</Hit_id>
+  <Hit_def>The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus] &gt;pdb|2CME|G The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus]</Hit_def>
+  <Hit_accession>2CME_E</Hit_accession>
+  <Hit_len>77</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>3.56165e-30</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>PALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>PALHLVDPQIQLTIT-------------DPKVYPIILRLGSNLSLSMARRNLDSLEARAFQSTPIVVQMTKLATTEELPDEFVVVTAK</Hsp_hseq>
+      <Hsp_midline>PAL LVDPQIQL +T              PKVYPIILRLGS LSL+MAR+ L+SLE +AFQ TPI VQMTKLATTEELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|APO40587.1|</Hit_id>
+  <Hit_def>ORF9b [Severe acute respiratory syndrome-related coronavirus]</Hit_def>
+  <Hit_accession>APO40587</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>9.31989e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>MDPKISEMHPALRLVDPQIQLAVTRMENAVG-----RDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEELPDEFVVVTVK</Hsp_qseq>
+      <Hsp_hseq>MDNKDRAMRLALRLVS-QITLTITRMETVLELGLSIEDRKALLTTRHP-----GSPLSLNMVKKLSPSREDKVCRLIPTVAKMTKLATIEELPDEFVVVTEK</Hsp_hseq>
+      <Hsp_midline>MD K   M  ALRLV  QI L +TRME  +       D+  +    +P     GSPLSLNM +K   S EDK  +L P   +MTKLAT EELPDEFVVVT K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|KAF5273715.1|</Hit_id>
+  <Hit_def>hypothetical protein FQR65_LT17127 [Abscondita terminalis]</Hit_def>
+  <Hit_accession>KAF5273715</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.96716</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>ALRLVDPQIQL-AVTRMENAVGRDQNN-VGPKVYPIILRLGSPLSLNMARKTLNSLED</Hsp_qseq>
+      <Hsp_hseq>ALKCVKPGLFFCSVAKFSNSYGLKHNNSVGPKKTHSVLDVSSFTGISMAKKTVQLMED</Hsp_hseq>
+      <Hsp_midline>AL+ V P +   +V +  N+ G   NN VGPK    +L + S   ++MA+KT+  +ED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|TVR73958.1|</Hit_id>
+  <Hit_def>DUF5103 domain-containing protein [Marinilabiliales bacterium]</Hit_def>
+  <Hit_accession>TVR73958</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>5.70783</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>SEMHPALRLVDPQIQLAVTRMENAVGRDQNNVGPKVYPIILR</Hsp_qseq>
+      <Hsp_hseq>SVRHPELRITDPRTELFVTVMQN--GRQDNMTGP-LQPMYVR</Hsp_hseq>
+      <Hsp_midline>S  HP LR+ DP+ +L VT M+N  GR  N  GP + P+ +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|OZF82993.1|</Hit_id>
+  <Hit_def>hypothetical protein FL82_16255, partial [Caenorhabditis remanei]</Hit_def>
+  <Hit_accession>OZF82993</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>7.07754</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>NAVGRDQNNVGPKVYPIILRLGSPLSLNMARKTLNSLEDKAFQLTPIAVQMTKLATTEEL</Hsp_qseq>
+      <Hsp_hseq>NSQEKKKTSSGRKIFPPPRRFNFPLASEKKKKRRNRVEDREKEIEKLGVKMRRAVKKEEL</Hsp_hseq>
+      <Hsp_midline>N+  + + + G K++P   R   PL+    +K  N +ED+  ++  + V+M +    EEL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_151495610.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|KAB1971820.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_151495610</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.42763</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_150352265.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8780826.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8792459.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8807147.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_150352265</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.50036</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_065990326.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribonuclease R [Lactobacillus] &gt;gb|OCX09705.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|OXC18255.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|OXC22217.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|OXC29211.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|OXC36722.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_065990326</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.50036</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_158181724.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|QGY94371.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_158181724</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.50036</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_170080797.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|MBE5059115.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|NME26960.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_170080797</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.50036</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_060461937.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|KWU04085.1| exoribonuclease R [Lactobacillus crispatus] &gt;gb|QLK33112.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_060461937</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.57381</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_089147093.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|OXC27462.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_089147093</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.57381</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_089150011.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|OXC14831.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|OXC19054.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|OXC22550.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_089150011</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.57381</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_005721134.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;emb|STX15994.1| 3&apos;-to-5&apos; exoribonuclease RNase R [Lactobacillus acidophilus] &gt;gb|AZR14972.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|EEJ68881.1| ribonuclease R [Lactobacillus crispatus JV-V01] &gt;gb|EEU18326.1| ribonuclease R [Lactobacillus crispatus 125-2-CHN] &gt;gb|EEX28341.1| ribonuclease R [Lactobacillus crispatus MV-3A-US]</Hit_def>
+  <Hit_accession>WP_005721134</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.57381</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_181576538.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|MBA2915182.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_181576538</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.57381</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_060808402.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|KWX59813.1| exoribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_060808402</Hit_accession>
+  <Hit_len>780</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.57439</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_195923503.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_195923503</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.64798</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_150397884.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8791878.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8795824.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8796408.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8799913.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8802857.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_150397884</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.64798</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_101891360.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8788364.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|KAA8788372.1| ribonuclease R [Lactobacillus crispatus] &gt;gb|PLT12488.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_101891360</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.64798</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_101887353.1|</Hit_id>
+  <Hit_def>ribonuclease R [Lactobacillus crispatus] &gt;gb|PLA29665.1| ribonuclease R [Lactobacillus crispatus]</Hit_def>
+  <Hit_accession>WP_101887353</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>7.72288</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>81</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VGPKVYPIILRLGSPLSLNMARKTL----NSLEDKAFQLTPIAVQMTKL</Hsp_qseq>
+      <Hsp_hseq>VGYKIYPSVMRSHGRMTYNKVNKTLKGEMNGLEDKYVKLRPMLEEMADL</Hsp_hseq>
+      <Hsp_midline>VG K+YP ++R    ++ N   KTL    N LEDK  +L P+  +M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>0</Statistics_db-num>
-      <Statistics_db-len>0</Statistics_db-len>
+      <Statistics_db-num>332016281</Statistics_db-num>
+      <Statistics_db-len>120178393972</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
-      <Statistics_kappa>-1</Statistics_kappa>
-      <Statistics_lambda>-1</Statistics_lambda>
-      <Statistics_entropy>-1</Statistics_entropy>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
     </Statistics>
   </Iteration_stat>
 </Iteration>
