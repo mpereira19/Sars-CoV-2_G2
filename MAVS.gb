@@ -1,0 +1,1268 @@
+LOCUS       MAVS_HUMAN               540 aa            linear   PRI 02-DEC-2020
+DEFINITION  RecName: Full=Mitochondrial antiviral-signaling protein;
+            Short=MAVS; AltName: Full=CARD adapter inducing interferon beta;
+            Short=Cardif; AltName: Full=Interferon beta promoter stimulator
+            protein 1; Short=IPS-1; AltName: Full=Putative
+            NF-kappa-B-activating protein 031N; AltName:
+            Full=Virus-induced-signaling adapter; Short=VISA.
+ACCESSION   Q7Z434
+VERSION     Q7Z434.2
+DBSOURCE    UniProtKB: locus MAVS_HUMAN, accession Q7Z434;
+            class: standard.
+            extra
+            accessions:A8K6X0,B2BD33,B2BD34,F5H6C8,M1P2Z0,Q2HWT5,Q3I0Y2,Q5T7I6,
+            Q86VY7,Q9H1H3,Q9H4Y1,Q9H8D3,Q9ULE9
+            created: May 10, 2004.
+            sequence updated: May 10, 2004.
+            annotation updated: Dec 2, 2020.
+            xrefs: DQ174270.1, AAZ80417.1, DQ167126.1, ABA54890.1, DQ181928.1,
+            ABA19229.1, AB232371.1, BAE79738.1, EF467323.1, ABR24161.1,
+            EF467324.1, ABR24162.1, KC415005.1, AGF94754.1, AB033097.1,
+            BAA86585.1, AB097003.1, BAC77356.1, AK023799.1, BAB14684.1,
+            AK123956.1, BAC85734.1, AK130992.1, BAC85473.1, AK291785.1,
+            BAF84474.1, AK296897.1, BAG59455.1, AL109804.41, AL353194.13,
+            CH471133.3, EAX10481.1, BC044952.1, AAH44952.1, NP_001193420.1,
+            NP_065797.2, 2MS7_A, 2MS7_B, 2MS7_C, 2MS7_D, 2MS7_E, 2MS7_F,
+            2MS7_G, 2MS7_H, 2MS7_I, 2MS7_J, 2MS7_K, 2MS7_L, 2MS7_M, 2MS7_N,
+            2MS7_O, 2MS7_P, 2MS7_Q, 2MS7_R, 2MS7_S, 2MS7_T, 2MS7_U, 2MS8_A,
+            2VGQ_A, 3J6C_A, 3J6J_A, 3J6J_B, 3J6J_C, 3J6J_D, 3J6J_E, 3J6J_G,
+            3J6J_I, 3J6J_L, 3RC5_B, 4P4H_I, 4P4H_J, 4P4H_K, 4P4H_L, 4P4H_M,
+            4P4H_N, 4P4H_O, 4P4H_P, 4Z8M_C, 4Z8M_D, 5JEK_C, 5JEK_D
+            xrefs (non-sequence databases): CCDS:CCDS33437.1, CCDS:CCDS56176.1,
+            PDBsum:2MS7, PDBsum:2MS8, PDBsum:2VGQ, PDBsum:3J6C, PDBsum:3J6J,
+            PDBsum:3RC5, PDBsum:4P4H, PDBsum:4Z8M, PDBsum:5JEK, BMRB:Q7Z434,
+            SMR:Q7Z434, BioGRID:121570, DIP:DIP-35445N, IntAct:Q7Z434,
+            MINT:Q7Z434, STRING:9606.ENSP00000401980, GlyGen:Q7Z434,
+            iPTMnet:Q7Z434, MetOSite:Q7Z434, PhosphoSitePlus:Q7Z434,
+            SwissPalm:Q7Z434, BioMuta:MAVS, DMDM:47115748, CPTAC:CPTAC-977,
+            EPD:Q7Z434, jPOST:Q7Z434, MassIVE:Q7Z434, MaxQB:Q7Z434,
+            PaxDb:Q7Z434, PeptideAtlas:Q7Z434, PRIDE:Q7Z434,
+            ProteomicsDB:27148, ProteomicsDB:3402, ProteomicsDB:69137,
+            ProteomicsDB:69138, ProteomicsDB:69139, Antibodypedia:3363,
+            DNASU:57506, Ensembl:ENST00000416600, Ensembl:ENSP00000413749,
+            Ensembl:ENSG00000088888, Ensembl:ENST00000428216,
+            Ensembl:ENSP00000401980, GeneID:57506, KEGG:hsa:57506,
+            UCSC:uc002wjw.5, CTD:57506, DisGeNET:57506,
+            EuPathDB:HostDB:ENSG00000088888.17, GeneCards:MAVS, HGNC:29233,
+            HPA:ENSG00000088888, MIM:609676, neXtProt:NX_Q7Z434,
+            OpenTargets:ENSG00000088888, PharmGKB:PA164722208,
+            eggNOG:ENOG502SAUA, GeneTree:ENSGT00510000049120,
+            HOGENOM:CLU_042052_0_0_1, InParanoid:Q7Z434, OMA:HNGYREE,
+            OrthoDB:887440at2759, PhylomeDB:Q7Z434, TreeFam:TF333444,
+            PathwayCommons:Q7Z434, Reactome:R-HSA-168928,
+            Reactome:R-HSA-5689896, Reactome:R-HSA-918233,
+            Reactome:R-HSA-933541, Reactome:R-HSA-933542,
+            Reactome:R-HSA-933543, Reactome:R-HSA-936440, SignaLink:Q7Z434,
+            SIGNOR:Q7Z434, BioGRID-ORCS:57506, ChiTaRS:MAVS,
+            EvolutionaryTrace:Q7Z434, GeneWiki:VISA_(gene), GenomeRNAi:57506,
+            Pharos:Q7Z434, PRO:PR:Q7Z434, Proteomes:UP000005640, RNAct:Q7Z434,
+            Bgee:ENSG00000088888, Genevisible:Q7Z434, GO:0016021, GO:0031966,
+            GO:0005741, GO:0005739, GO:0005778, GO:0050700, GO:0019901,
+            GO:0035591, GO:0002218, GO:0071360, GO:0042742, GO:0051607,
+            GO:0045087, GO:0032480, GO:0045071, GO:0071651, GO:0002230,
+            GO:0051091, GO:0043123, GO:0032727, GO:0032728, GO:0032755,
+            GO:0032757, GO:0071660, GO:0002735, GO:0042307, GO:0001934,
+            GO:0060760, GO:0045944, GO:0032760, GO:1904469, GO:0060340,
+            GO:1900063, GO:0007165, GO:0016032, CDD:cd08811,
+            InterPro:IPR031964, InterPro:IPR042144, InterPro:IPR026148,
+            PANTHER:PTHR21446:SF6, Pfam:PF16739
+KEYWORDS    3D-structure; Alternative splicing; Antiviral defense; Host-virus
+            interaction; Immunity; Innate immunity; Membrane; Methylation;
+            Mitochondrion; Mitochondrion outer membrane; Peroxisome;
+            Phosphoprotein; Polymorphism; Reference proteome; Transmembrane;
+            Transmembrane helix; Ubl conjugation.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 540)
+  AUTHORS   Seth,R.B., Sun,L., Ea,C.K. and Chen,Z.J.
+  TITLE     Identification and characterization of MAVS, a mitochondrial
+            antiviral signaling protein that activates NF-kappaB and IRF 3
+  JOURNAL   Cell 122 (5), 669-682 (2005)
+   PUBMED   16125763
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), FUNCTION, TISSUE
+            SPECIFICITY, MUTAGENESIS OF THR-54 AND 67-GLY--VAL-69, INTERACTION
+            WITH DDX58/RIG-I AND TRAF6, SUBCELLULAR LOCATION, AND VARIANTS
+            LYS-198 AND PHE-409.
+REFERENCE   2  (residues 1 to 540)
+  AUTHORS   Xu,L.G., Wang,Y.Y., Han,K.J., Li,L.Y., Zhai,Z. and Shu,H.B.
+  TITLE     VISA is an adapter protein required for virus-triggered IFN-beta
+            signaling
+  JOURNAL   Mol Cell 19 (6), 727-740 (2005)
+   PUBMED   16153868
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA], TISSUE SPECIFICITY, INTERACTION WITH
+            DDX58/RIG-I; IRF3; TRAF2 AND TRAF6, MUTAGENESIS OF GLN-145; GLU-155
+            AND GLU-457, FUNCTION, AND VARIANT GLU-93.
+REFERENCE   3  (residues 1 to 540)
+  AUTHORS   Meylan,E., Curran,J., Hofmann,K., Moradpour,D., Binder,M.,
+            Bartenschlager,R. and Tschopp,J.
+  TITLE     Cardif is an adaptor protein in the RIG-I antiviral pathway and is
+            targeted by hepatitis C virus
+  JOURNAL   Nature 437 (7062), 1167-1172 (2005)
+   PUBMED   16177806
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), INTERACTION WITH
+            DDX58/RIG-I; IKBKE; CHUK AND IKBKB, FUNCTION, MUTAGENESIS OF
+            CYS-508, VARIANTS LYS-198 AND PHE-409, INTERACTION WITH HCV NS3/4A
+            PROTEASE (MICROBIAL INFECTION), AND PROTEOLYTIC CLEAVAGE (MICROBIAL
+            INFECTION).
+REFERENCE   4  (residues 1 to 540)
+  AUTHORS   Kawai,T., Takahashi,K., Sato,S., Coban,C., Kumar,H., Kato,H.,
+            Ishii,K.J., Takeuchi,O. and Akira,S.
+  TITLE     IPS-1, an adaptor triggering RIG-I- and Mda5-mediated type I
+            interferon induction
+  JOURNAL   Nat Immunol 6 (10), 981-988 (2005)
+   PUBMED   16127453
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1), TISSUE SPECIFICITY,
+            INTERACTION WITH DDX58/RIG-I; IFIH1/MDA5; FADD AND RIPK1, FUNCTION,
+            AND VARIANT GLU-93.
+REFERENCE   5  (residues 1 to 540)
+  AUTHORS   Lad,S.P., Yang,G., Scott,D.A., Chao,T.H., Correia Jda,S., de la
+            Torre,J.C. and Li,E.
+  TITLE     Identification of MAVS splicing variants that interfere with
+            RIGI/MAVS pathway signaling
+  JOURNAL   Mol Immunol 45 (8), 2277-2287 (2008)
+   PUBMED   18207245
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 5 AND 6).
+REFERENCE   6  (residues 1 to 540)
+  AUTHORS   Patel,M.R., Loo,Y.M., Horner,S.M., Gale,M. Jr. and Malik,H.S.
+  TITLE     Convergent evolution of escape from hepaciviral antagonism in
+            primates
+  JOURNAL   PLoS Biol 10 (3), e1001282 (2012)
+   PUBMED   22427742
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1).
+REFERENCE   7  (residues 1 to 540)
+  AUTHORS   Nagase,T., Ishikawa,K., Kikuno,R., Hirosawa,M., Nomura,N. and
+            Ohara,O.
+  TITLE     Prediction of the coding sequences of unidentified human genes. XV.
+            The complete sequences of 100 new cDNA clones from brain which code
+            for large proteins in vitro
+  JOURNAL   DNA Res 6 (5), 337-345 (1999)
+   PUBMED   10574462
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).;
+            TISSUE=Brain
+REFERENCE   8  (residues 1 to 540)
+  AUTHORS   Matsuda,A., Suzuki,Y., Honda,G., Muramatsu,S., Matsuzaki,O.,
+            Nagano,Y., Doi,T., Shimotohno,K., Harada,T., Nishida,E., Hayashi,H.
+            and Sugano,S.
+  TITLE     Large-scale identification and characterization of human genes that
+            activate NF-kappaB and MAPK signaling pathways
+  JOURNAL   Oncogene 22 (21), 3307-3318 (2003)
+   PUBMED   12761501
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).;
+            TISSUE=Lung fibroblast
+REFERENCE   9  (residues 1 to 540)
+  AUTHORS   Ota,T., Suzuki,Y., Nishikawa,T., Otsuki,T., Sugiyama,T., Irie,R.,
+            Wakamatsu,A., Hayashi,K., Sato,H., Nagai,K., Kimura,K., Makita,H.,
+            Sekine,M., Obayashi,M., Nishi,T., Shibahara,T., Tanaka,T.,
+            Ishii,S., Yamamoto,J., Saito,K., Kawai,Y., Isono,Y., Nakamura,Y.,
+            Nagahari,K., Murakami,K., Yasuda,T., Iwayanagi,T., Wagatsuma,M.,
+            Shiratori,A., Sudo,H., Hosoiri,T., Kaku,Y., Kodaira,H., Kondo,H.,
+            Sugawara,M., Takahashi,M., Kanda,K., Yokoi,T., Furuya,T.,
+            Kikkawa,E., Omura,Y., Abe,K., Kamihara,K., Katsuta,N., Sato,K.,
+            Tanikawa,M., Yamazaki,M., Ninomiya,K., Ishibashi,T., Yamashita,H.,
+            Murakawa,K., Fujimori,K., Tanai,H., Kimata,M., Watanabe,M.,
+            Hiraoka,S., Chiba,Y., Ishida,S., Ono,Y., Takiguchi,S., Watanabe,S.,
+            Yosida,M., Hotuta,T., Kusano,J., Kanehori,K., Takahashi-Fujii,A.,
+            Hara,H., Tanase,T.O., Nomura,Y., Togiya,S., Komai,F., Hara,R.,
+            Takeuchi,K., Arita,M., Imose,N., Musashino,K., Yuuki,H., Oshima,A.,
+            Sasaki,N., Aotsuka,S., Yoshikawa,Y., Matsunawa,H., Ichihara,T.,
+            Shiohata,N., Sano,S., Moriya,S., Momiyama,H., Satoh,N., Takami,S.,
+            Terashima,Y., Suzuki,O., Nakagawa,S., Senoh,A., Mizoguchi,H.,
+            Goto,Y., Shimizu,F., Wakebe,H., Hishigaki,H., Watanabe,T.,
+            Sugiyama,A., Takemoto,M., Kawakami,B., Yamazaki,M., Watanabe,K.,
+            Kumagai,A., Itakura,S., Fukuzumi,Y., Fujimori,Y., Komiyama,M.,
+            Tashiro,H., Tanigami,A., Fujiwara,T., Ono,T., Yamada,K., Fujii,Y.,
+            Ozaki,K., Hirao,M., Ohmori,Y., Kawabata,A., Hikiji,T., Kobatake,N.,
+            Inagaki,H., Ikema,Y., Okamoto,S., Okitani,R., Kawakami,T.,
+            Noguchi,S., Itoh,T., Shigeta,K., Senba,T., Matsumura,K.,
+            Nakajima,Y., Mizuno,T., Morinaga,M., Sasaki,M., Togashi,T.,
+            Oyama,M., Hata,H., Watanabe,M., Komatsu,T., Mizushima-Sugano,J.,
+            Satoh,T., Shirai,Y., Takahashi,Y., Nakagawa,K., Okumura,K.,
+            Nagase,T., Nomura,N., Kikuchi,H., Masuho,Y., Yamashita,R.,
+            Nakai,K., Yada,T., Nakamura,Y., Ohara,O., Isogai,T. and Sugano,S.
+  TITLE     Complete sequencing and characterization of 21,243 full-length
+            human cDNAs
+  JOURNAL   Nat Genet 36 (1), 40-45 (2004)
+   PUBMED   14702039
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1; 2; 3; 4 AND 5),
+            AND VARIANT GLU-93.;
+            TISSUE=Pericardium, Placenta, and Tongue
+REFERENCE   10 (residues 1 to 540)
+  AUTHORS   Deloukas,P., Matthews,L.H., Ashurst,J., Burton,J., Gilbert,J.G.,
+            Jones,M., Stavrides,G., Almeida,J.P., Babbage,A.K., Bagguley,C.L.,
+            Bailey,J., Barlow,K.F., Bates,K.N., Beard,L.M., Beare,D.M.,
+            Beasley,O.P., Bird,C.P., Blakey,S.E., Bridgeman,A.M., Brown,A.J.,
+            Buck,D., Burrill,W., Butler,A.P., Carder,C., Carter,N.P.,
+            Chapman,J.C., Clamp,M., Clark,G., Clark,L.N., Clark,S.Y.,
+            Clee,C.M., Clegg,S., Cobley,V.E., Collier,R.E., Connor,R.,
+            Corby,N.R., Coulson,A., Coville,G.J., Deadman,R., Dhami,P.,
+            Dunn,M., Ellington,A.G., Frankland,J.A., Fraser,A., French,L.,
+            Garner,P., Grafham,D.V., Griffiths,C., Griffiths,M.N., Gwilliam,R.,
+            Hall,R.E., Hammond,S., Harley,J.L., Heath,P.D., Ho,S., Holden,J.L.,
+            Howden,P.J., Huckle,E., Hunt,A.R., Hunt,S.E., Jekosch,K.,
+            Johnson,C.M., Johnson,D., Kay,M.P., Kimberley,A.M., King,A.,
+            Knights,A., Laird,G.K., Lawlor,S., Lehvaslaiho,M.H., Leversha,M.,
+            Lloyd,C., Lloyd,D.M., Lovell,J.D., Marsh,V.L., Martin,S.L.,
+            McConnachie,L.J., McLay,K., McMurray,A.A., Milne,S., Mistry,D.,
+            Moore,M.J., Mullikin,J.C., Nickerson,T., Oliver,K., Parker,A.,
+            Patel,R., Pearce,T.A., Peck,A.I., Phillimore,B.J.,
+            Prathalingam,S.R., Plumb,R.W., Ramsay,H., Rice,C.M., Ross,M.T.,
+            Scott,C.E., Sehra,H.K., Shownkeen,R., Sims,S., Skuce,C.D.,
+            Smith,M.L., Soderlund,C., Steward,C.A., Sulston,J.E., Swann,M.,
+            Sycamore,N., Taylor,R., Tee,L., Thomas,D.W., Thorpe,A., Tracey,A.,
+            Tromans,A.C., Vaudin,M., Wall,M., Wallis,J.M., Whitehead,S.L.,
+            Whittaker,P., Willey,D.L., Williams,L., Williams,S.A., Wilming,L.,
+            Wray,P.W., Hubbard,T., Durbin,R.M., Bentley,D.R., Beck,S. and
+            Rogers,J.
+  TITLE     The DNA sequence and comparative analysis of human chromosome 20
+  JOURNAL   Nature 414 (6866), 865-871 (2001)
+   PUBMED   11780052
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+REFERENCE   11 (residues 1 to 540)
+  AUTHORS   Mural,R.J., Istrail,S., Sutton,G.G., Florea,L., Halpern,A.L.,
+            Mobarry,C.M., Lippert,R., Walenz,B., Shatkay,H., Dew,I.,
+            Miller,J.R., Flanigan,M.J., Edwards,N.J., Bolanos,R., Fasulo,D.,
+            Halldorsson,B.V., Hannenhalli,S., Turner,R., Yooseph,S., Lu,F.,
+            Nusskern,D.R., Shue,B.C., Zheng,X.H., Zhong,F., Delcher,A.L.,
+            Huson,D.H., Kravitz,S.A., Mouchard,L., Reinert,K., Remington,K.A.,
+            Clark,A.G., Waterman,M.S., Eichler,E.E., Adams,M.D.,
+            Hunkapiller,M.W., Myers,E.W. and Venter,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-SEP-2005) to the EMBL/GenBank/DDBJ databases
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+REFERENCE   12 (residues 1 to 540)
+  AUTHORS   Gerhard,D.S., Wagner,L., Feingold,E.A., Shenmen,C.M., Grouse,L.H.,
+            Schuler,G., Klein,S.L., Old,S., Rasooly,R., Good,P., Guyer,M.,
+            Peck,A.M., Derge,J.G., Lipman,D., Collins,F.S., Jang,W., Sherry,S.,
+            Feolo,M., Misquitta,L., Lee,E., Rotmistrovsky,K., Greenhut,S.F.,
+            Schaefer,C.F., Buetow,K., Bonner,T.I., Haussler,D., Kent,J.,
+            Kiekhaus,M., Furey,T., Brent,M., Prange,C., Schreiber,K.,
+            Shapiro,N., Bhat,N.K., Hopkins,R.F., Hsie,F., Driscoll,T.,
+            Soares,M.B., Casavant,T.L., Scheetz,T.E., Brown-stein,M.J.,
+            Usdin,T.B., Toshiyuki,S., Carninci,P., Piao,Y., Dudekula,D.B.,
+            Ko,M.S., Kawakami,K., Suzuki,Y., Sugano,S., Gruber,C.E.,
+            Smith,M.R., Simmons,B., Moore,T., Waterman,R., Johnson,S.L.,
+            Ruan,Y., Wei,C.L., Mathavan,S., Gunaratne,P.H., Wu,J., Garcia,A.M.,
+            Hulyk,S.W., Fuh,E., Yuan,Y., Sneed,A., Kowis,C., Hodgson,A.,
+            Muzny,D.M., McPherson,J., Gibbs,R.A., Fahey,J., Helton,E.,
+            Ketteman,M., Madan,A., Rodrigues,S., Sanchez,A., Whiting,M.,
+            Madari,A., Young,A.C., Wetherby,K.D., Granite,S.J., Kwong,P.N.,
+            Brinkley,C.P., Pearson,R.L., Bouffard,G.G., Blakesly,R.W.,
+            Green,E.D., Dickson,M.C., Rodriguez,A.C., Grimwood,J., Schmutz,J.,
+            Myers,R.M., Butterfield,Y.S., Griffith,M., Griffith,O.L.,
+            Krzywinski,M.I., Liao,N., Morin,R., Palmquist,D., Petrescu,A.S.,
+            Skalska,U., Smailus,D.E., Stott,J.M., Schnerch,A., Schein,J.E.,
+            Jones,S.J., Holt,R.A., Baross,A., Marra,M.A., Clifton,S.,
+            Makowski,K.A., Bosak,S. and Malek,J.
+  CONSRTM   MGC Project Team
+  TITLE     The status, quality, and expansion of the NIH full-length cDNA
+            project: the Mammalian Gene Collection (MGC)
+  JOURNAL   Genome Res 14 (10B), 2121-2127 (2004)
+   PUBMED   15489334
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA], AND VARIANTS GLU-93;
+            LYS-198 AND PHE-409.;
+            TISSUE=Brain
+            Erratum:[Genome Res. 2006 Jun;16(6):804. Morrin, Ryan [corrected to
+            Morin, Ryan]]
+REFERENCE   13 (residues 1 to 540)
+  AUTHORS   Li,X.D., Sun,L., Seth,R.B., Pineda,G. and Chen,Z.J.
+  TITLE     Hepatitis C virus protease NS3/4A cleaves mitochondrial antiviral
+            signaling protein off the mitochondria to evade innate immunity
+  JOURNAL   Proc Natl Acad Sci U S A 102 (49), 17717-17722 (2005)
+   PUBMED   16301520
+  REMARK    INTERACTION WITH HCV NS3/4A PROTEASE (MICROBIAL INFECTION),
+            MUTAGENESIS OF CYS-435; CYS-452 AND CYS-508, AND PROTEOLYTIC
+            CLEAVAGE (MICROBIAL INFECTION).
+REFERENCE   14 (residues 1 to 540)
+  AUTHORS   Komuro,A. and Horvath,C.M.
+  TITLE     RNA- and virus-independent inhibition of antiviral signaling by RNA
+            helicase LGP2
+  JOURNAL   J Virol 80 (24), 12332-12342 (2006)
+   PUBMED   17020950
+  REMARK    INTERACTION WITH DHX58/LGP2 AND IKBKE.
+REFERENCE   15 (residues 1 to 540)
+  AUTHORS   Beausoleil,S.A., Villen,J., Gerber,S.A., Rush,J. and Gygi,S.P.
+  TITLE     A probability-based approach for high-throughput protein
+            phosphorylation analysis and site localization
+  JOURNAL   Nat Biotechnol 24 (10), 1285-1292 (2006)
+   PUBMED   16964243
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-222, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Cervix carcinoma
+REFERENCE   16 (residues 1 to 540)
+  AUTHORS   Chen,Z., Benureau,Y., Rijnbrand,R., Yi,J., Wang,T., Warter,L.,
+            Lanford,R.E., Weinman,S.A., Lemon,S.M., Martin,A. and Li,K.
+  TITLE     GB virus B disrupts RIG-I signaling by NS3/4A-mediated cleavage of
+            the adaptor protein MAVS
+  JOURNAL   J Virol 81 (2), 964-976 (2007)
+   PUBMED   17093192
+  REMARK    INTERACTION WITH HEPATITIS GB VIRUS B NS3/4A PROTEASE (MICROBIAL
+            INFECTION), CLEAVAGE SITE, AND MUTAGENESIS OF CYS-508.
+REFERENCE   17 (residues 1 to 540)
+  AUTHORS   Yang,Y., Liang,Y., Qu,L., Chen,Z., Yi,M., Li,K. and Lemon,S.M.
+  TITLE     Disruption of innate immunity due to mitochondrial targeting of a
+            picornaviral protease precursor
+  JOURNAL   Proc Natl Acad Sci U S A 104 (17), 7253-7258 (2007)
+   PUBMED   17438296
+  REMARK    CLEAVAGE BY HAV PROTEIN 3CD (MICROBIAL INFECTION), CLEAVAGE SITE,
+            AND MUTAGENESIS OF GLN-427 AND GLU-463.
+REFERENCE   18 (residues 1 to 540)
+  AUTHORS   Arimoto,K., Takahashi,H., Hishiki,T., Konishi,H., Fujita,T. and
+            Shimotohno,K.
+  TITLE     Negative regulation of the RIG-I signaling by the ubiquitin ligase
+            RNF125
+  JOURNAL   Proc Natl Acad Sci U S A 104 (18), 7500-7505 (2007)
+   PUBMED   17460044
+  REMARK    UBIQUITINATION.
+REFERENCE   19 (residues 1 to 540)
+  AUTHORS   Diao,F., Li,S., Tian,Y., Zhang,M., Xu,L.G., Zhang,Y., Wang,R.P.,
+            Chen,D., Zhai,Z., Zhong,B., Tien,P. and Shu,H.B.
+  TITLE     Negative regulation of MDA5- but not RIG-I-mediated innate
+            antiviral signaling by the dihydroxyacetone kinase
+  JOURNAL   Proc Natl Acad Sci U S A 104 (28), 11706-11711 (2007)
+   PUBMED   17600090
+  REMARK    INTERACTION WITH IFIH1.
+REFERENCE   20 (residues 1 to 540)
+  AUTHORS   Jounai,N., Takeshita,F., Kobiyama,K., Sawano,A., Miyawaki,A.,
+            Xin,K.Q., Ishii,K.J., Kawai,T., Akira,S., Suzuki,K. and Okuda,K.
+  TITLE     The Atg5 Atg12 conjugate associates with innate antiviral immune
+            responses
+  JOURNAL   Proc Natl Acad Sci U S A 104 (35), 14050-14055 (2007)
+   PUBMED   17709747
+  REMARK    INTERACTION WITH ATG5 AND ATG12, SUBCELLULAR LOCATION, AND
+            MUTAGENESIS OF THR-54.
+REFERENCE   21 (residues 1 to 540)
+  AUTHORS   Friedman,C.S., O'Donnell,M.A., Legarda-Addison,D., Ng,A.,
+            Cardenas,W.B., Yount,J.S., Moran,T.M., Basler,C.F., Komuro,A.,
+            Horvath,C.M., Xavier,R. and Ting,A.T.
+  TITLE     The tumour suppressor CYLD is a negative regulator of
+            RIG-I-mediated antiviral response
+  JOURNAL   EMBO Rep 9 (9), 930-936 (2008)
+   PUBMED   18636086
+  REMARK    INTERACTION WITH CYLD.
+REFERENCE   22 (residues 1 to 540)
+  AUTHORS   Zahedi,R.P., Lewandrowski,U., Wiesner,J., Wortelkamp,S.,
+            Moebius,J., Schutz,C., Walter,U., Gambaryan,S. and Sickmann,A.
+  TITLE     Phosphoproteome of resting human platelets
+  JOURNAL   J Proteome Res 7 (2), 526-534 (2008)
+   PUBMED   18088087
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Platelet
+REFERENCE   23 (residues 1 to 540)
+  AUTHORS   Daub,H., Olsen,J.V., Bairlein,M., Gnad,F., Oppermann,F.S.,
+            Korner,R., Greff,Z., Keri,G., Stemmann,O. and Mann,M.
+  TITLE     Kinase-selective enrichment enables quantitative phosphoproteomics
+            of the kinome across the cell cycle
+  JOURNAL   Mol Cell 31 (3), 438-448 (2008)
+   PUBMED   18691976
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Cervix carcinoma
+REFERENCE   24 (residues 1 to 540)
+  AUTHORS   Moore,C.B., Bergstralh,D.T., Duncan,J.A., Lei,Y., Morrison,T.E.,
+            Zimmermann,A.G., Accavitti-Loper,M.A., Madden,V.J., Sun,L., Ye,Z.,
+            Lich,J.D., Heise,M.T., Chen,Z. and Ting,J.P.
+  TITLE     NLRX1 is a regulator of mitochondrial antiviral immunity
+  JOURNAL   Nature 451 (7178), 573-577 (2008)
+   PUBMED   18200010
+  REMARK    INTERACTION WITH NLRX1.
+REFERENCE   25 (residues 1 to 540)
+  AUTHORS   Dephoure,N., Zhou,C., Villen,J., Beausoleil,S.A., Bakalarski,C.E.,
+            Elledge,S.J. and Gygi,S.P.
+  TITLE     A quantitative atlas of mitotic phosphorylation
+  JOURNAL   Proc Natl Acad Sci U S A 105 (31), 10762-10767 (2008)
+   PUBMED   18669648
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-152; SER-157;
+            SER-165; SER-222; SER-233; THR-234 AND SER-258, AND IDENTIFICATION
+            BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Cervix carcinoma
+REFERENCE   26 (residues 1 to 540)
+  AUTHORS   Gauci,S., Helbig,A.O., Slijper,M., Krijgsveld,J., Heck,A.J. and
+            Mohammed,S.
+  TITLE     Lys-N and trypsin cover complementary parts of the phosphoproteome
+            in a refined SCX-based approach
+  JOURNAL   Anal Chem 81 (11), 4493-4501 (2009)
+   PUBMED   19413330
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+REFERENCE   27 (residues 1 to 540)
+  AUTHORS   Chiu,Y.H., Macmillan,J.B. and Chen,Z.J.
+  TITLE     RNA polymerase III detects cytosolic DNA and induces type I
+            interferons through the RIG-I pathway
+  JOURNAL   Cell 138 (3), 576-591 (2009)
+   PUBMED   19631370
+  REMARK    FUNCTION.
+REFERENCE   28 (residues 1 to 540)
+  AUTHORS   Johnsen,I.B., Nguyen,T.T., Bergstroem,B., Fitzgerald,K.A. and
+            Anthonsen,M.W.
+  TITLE     The tyrosine kinase c-Src enhances RIG-I (retinoic acid-inducible
+            gene I)-elicited antiviral signaling
+  JOURNAL   J Biol Chem 284 (28), 19122-19131 (2009)
+   PUBMED   19419966
+  REMARK    INTERACTION WITH SRC.
+REFERENCE   29 (residues 1 to 540)
+  AUTHORS   Jia,Y., Song,T., Wei,C., Ni,C., Zheng,Z., Xu,Q., Ma,H., Li,L.,
+            Zhang,Y., He,X., Xu,Y., Shi,W. and Zhong,H.
+  TITLE     Negative regulation of MAVS-mediated innate immune response by
+            PSMA7
+  JOURNAL   J Immunol 183 (7), 4241-4248 (2009)
+   PUBMED   19734229
+  REMARK    INTERACTION WITH PSMA7.
+REFERENCE   30 (residues 1 to 540)
+  AUTHORS   You,F., Sun,H., Zhou,X., Sun,W., Liang,S., Zhai,Z. and Jiang,Z.
+  TITLE     PCBP2 mediates degradation of the adaptor MAVS via the HECT
+            ubiquitin ligase AIP4
+  JOURNAL   Nat Immunol 10 (12), 1300-1308 (2009)
+   PUBMED   19881509
+  REMARK    INTERACTION WITH PCBP2, AND UBIQUITINATION BY ITCH.
+REFERENCE   31 (residues 1 to 540)
+  AUTHORS   Xu,L., Xiao,N., Liu,F., Ren,H. and Gu,J.
+  TITLE     Inhibition of RIG-I and MDA5-dependent antiviral response by gC1qR
+            at mitochondria
+  JOURNAL   Proc Natl Acad Sci U S A 106 (5), 1530-1535 (2009)
+   PUBMED   19164550
+  REMARK    INTERACTION WITH C1QBP.
+REFERENCE   32 (residues 1 to 540)
+  AUTHORS   Li,Y., Li,C., Xue,P., Zhong,B., Mao,A.P., Ran,Y., Chen,H.,
+            Wang,Y.Y., Yang,F. and Shu,H.B.
+  TITLE     ISG56 is a negative-feedback regulator of virus-triggered signaling
+            and cellular antiviral response
+  JOURNAL   Proc Natl Acad Sci U S A 106 (19), 7945-7950 (2009)
+   PUBMED   19416887
+  REMARK    INTERACTION WITH STING1.
+REFERENCE   33 (residues 1 to 540)
+  AUTHORS   Mayya,V., Lundgren,D.H., Hwang,S.I., Rezaul,K., Wu,L., Eng,J.K.,
+            Rodionov,V. and Han,D.K.
+  TITLE     Quantitative phosphoproteomic analysis of T cell receptor signaling
+            reveals system-wide modulation of protein-protein interactions
+  JOURNAL   Sci Signal 2 (84), ra46 (2009)
+   PUBMED   19690332
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-152 AND SER-165, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Leukemic T-cell
+            Publication Status: Online-Only
+REFERENCE   34 (residues 1 to 540)
+  AUTHORS   Dixit,E., Boulant,S., Zhang,Y., Lee,A.S., Odendall,C., Shum,B.,
+            Hacohen,N., Chen,Z.J., Whelan,S.P., Fransen,M., Nibert,M.L.,
+            Superti-Furga,G. and Kagan,J.C.
+  TITLE     Peroxisomes are signaling platforms for antiviral innate immunity
+  JOURNAL   Cell 141 (4), 668-681 (2010)
+   PUBMED   20451243
+  REMARK    FUNCTION, AND SUBCELLULAR LOCATION.
+REFERENCE   35 (residues 1 to 540)
+  AUTHORS   Oshiumi,H., Sakai,K., Matsumoto,M. and Seya,T.
+  TITLE     DEAD/H BOX 3 (DDX3) helicase binds the RIG-I adaptor IPS-1 to
+            up-regulate IFN-beta-inducing potential
+  JOURNAL   Eur J Immunol 40 (4), 940-948 (2010)
+   PUBMED   20127681
+  REMARK    FUNCTION, INTERACTION WITH DDX3X, AND SUBCELLULAR LOCATION.
+REFERENCE   36 (residues 1 to 540)
+  AUTHORS   Oshiumi,H., Ikeda,M., Matsumoto,M., Watanabe,A., Takeuchi,O.,
+            Akira,S., Kato,N., Shimotohno,K. and Seya,T.
+  TITLE     Hepatitis C virus core protein abrogates the DDX3 function that
+            enhances IPS-1-mediated IFN-beta induction
+  JOURNAL   PLoS One 5 (12), e14258 (2010)
+   PUBMED   21170385
+  REMARK    FUNCTION, INTERACTION WITH DDX3X, AND SUBCELLULAR LOCATION.
+            Publication Status: Online-Only
+REFERENCE   37 (residues 1 to 540)
+  AUTHORS   Olsen,J.V., Vermeulen,M., Santamaria,A., Kumar,C., Miller,M.L.,
+            Jensen,L.J., Gnad,F., Cox,J., Jensen,T.S., Nigg,E.A., Brunak,S. and
+            Mann,M.
+  TITLE     Quantitative phosphoproteomics reveals widespread full
+            phosphorylation site occupancy during mitosis
+  JOURNAL   Sci Signal 3 (104), ra3 (2010)
+   PUBMED   20068231
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-253 AND SER-258, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Cervix carcinoma
+            Publication Status: Online-Only
+REFERENCE   38 (residues 1 to 540)
+  AUTHORS   Burkard,T.R., Planyavsky,M., Kaupe,I., Breitwieser,F.P.,
+            Burckstummer,T., Bennett,K.L., Superti-Furga,G. and Colinge,J.
+  TITLE     Initial characterization of the human central proteome
+  JOURNAL   BMC Syst Biol 5, 17 (2011)
+   PUBMED   21269460
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+            Publication Status: Online-Only
+REFERENCE   39 (residues 1 to 540)
+  AUTHORS   Mukherjee,A., Morosky,S.A., Delorme-Axford,E., Dybdahl-Sissoko,N.,
+            Oberste,M.S., Wang,T. and Coyne,C.B.
+  TITLE     The coxsackievirus B 3C protease cleaves MAVS and TRIF to attenuate
+            host type I interferon and apoptotic signaling
+  JOURNAL   PLoS Pathog 7 (3), e1001311 (2011)
+   PUBMED   21436888
+  REMARK    PROTEOLYTIC CLEAVAGE (MICROBIAL INFECTION), AND MUTAGENESIS OF
+            GLN-148.
+REFERENCE   40 (residues 1 to 540)
+  AUTHORS   Liu,X.Y., Chen,W., Wei,B., Shan,Y.F. and Wang,C.
+  TITLE     IFN-induced TPR protein IFIT3 potentiates antiviral signaling by
+            bridging MAVS and TBK1
+  JOURNAL   J Immunol 187 (5), 2559-2568 (2011)
+   PUBMED   21813773
+  REMARK    INTERACTION WITH IFIT3 AND TBK1.
+REFERENCE   41 (residues 1 to 540)
+  AUTHORS   Wang,Y., Tong,X. and Ye,X.
+  TITLE     Ndfip1 negatively regulates RIG-I-dependent immune signaling by
+            enhancing E3 ligase Smurf1-mediated MAVS degradation
+  JOURNAL   J Immunol 189 (11), 5304-5313 (2012)
+   PUBMED   23087404
+  REMARK    FUNCTION, INTERACTION WITH NDFIP1 AND SMURF1, AND UBIQUITINATION BY
+            SMURF1.
+REFERENCE   42 (residues 1 to 540)
+  AUTHORS   Boyapalle,S., Wong,T., Garay,J., Teng,M., San Juan-Vergara,H.,
+            Mohapatra,S. and Mohapatra,S.
+  TITLE     Respiratory syncytial virus NS1 protein colocalizes with
+            mitochondrial antiviral signaling protein MAVS following infection
+  JOURNAL   PLoS One 7 (2), e29386 (2012)
+   PUBMED   22383950
+  REMARK    INTERACTION WITH HRSV NS1 (MICROBIAL INFECTION).
+REFERENCE   43 (residues 1 to 540)
+  AUTHORS   Menning,M. and Kufer,T.A.
+  TITLE     A role for the Ankyrin repeat containing protein Ankrd17 in Nod1-
+            and Nod2-mediated inflammatory responses
+  JOURNAL   FEBS Lett 587 (14), 2137-2142 (2013)
+   PUBMED   23711367
+  REMARK    INTERACTION WITH ANKRD17.
+REFERENCE   44 (residues 1 to 540)
+  AUTHORS   Jenkins,K., Khoo,J.J., Sadler,A., Piganis,R., Wang,D., Borg,N.A.,
+            Hjerrild,K., Gould,J., Thomas,B.J., Nagley,P., Hertzog,P.J. and
+            Mansell,A.
+  TITLE     Mitochondrially localised MUL1 is a novel modulator of antiviral
+            signaling
+  JOURNAL   Immunol Cell Biol 91 (4), 321-330 (2013)
+   PUBMED   23399697
+  REMARK    INTERACTION WITH MUL1.
+REFERENCE   45 (residues 1 to 540)
+  AUTHORS   Wang,P., Yang,L., Cheng,G., Yang,G., Xu,Z., You,F., Sun,Q., Lin,R.,
+            Fikrig,E. and Sutton,R.E.
+  TITLE     UBXN1 interferes with Rig-I-like receptor-mediated antiviral immune
+            response by targeting MAVS
+  JOURNAL   Cell Rep 3 (4), 1057-1070 (2013)
+   PUBMED   23545497
+  REMARK    INTERACTION WITH UBXN1.
+REFERENCE   46 (residues 1 to 540)
+  AUTHORS   Zhou,H., Di Palma,S., Preisinger,C., Peng,M., Polat,A.N., Heck,A.J.
+            and Mohammed,S.
+  TITLE     Toward a comprehensive characterization of a human cancer cell
+            phosphoproteome
+  JOURNAL   J Proteome Res 12 (1), 260-271 (2013)
+   PUBMED   23186163
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-222, AND
+            IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Cervix carcinoma, and Erythroleukemia
+REFERENCE   47 (residues 1 to 540)
+  AUTHORS   Bian,Y., Song,C., Cheng,K., Dong,M., Wang,F., Huang,J., Sun,D.,
+            Wang,L., Ye,M. and Zou,H.
+  TITLE     An enzyme assisted RP-RPLC approach for in-depth analysis of human
+            liver phosphoproteome
+  JOURNAL   J Proteomics 96, 253-262 (2014)
+   PUBMED   24275569
+  REMARK    PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-152; SER-165;
+            SER-180; SER-188; THR-215 AND SER-222, AND IDENTIFICATION BY MASS
+            SPECTROMETRY [LARGE SCALE ANALYSIS].;
+            TISSUE=Liver
+REFERENCE   48 (residues 1 to 540)
+  AUTHORS   Feng,Q., Langereis,M.A., Lork,M., Nguyen,M., Hato,S.V., Lanke,K.,
+            Emdad,L., Bhoopathi,P., Fisher,P.B., Lloyd,R.E. and van
+            Kuppeveld,F.J.
+  TITLE     Enterovirus 2Apro targets MDA5 and MAVS in infected cells
+  JOURNAL   J Virol 88 (6), 3369-3378 (2014)
+   PUBMED   24390337
+  REMARK    PROTEOLYTIC CLEAVAGE (MICROBIAL INFECTION).
+REFERENCE   49 (residues 1 to 540)
+  AUTHORS   Shi,C.S., Qi,H.Y., Boularan,C., Huang,N.N., Abu-Asab,M.,
+            Shelhamer,J.H. and Kehrl,J.H.
+  TITLE     SARS-coronavirus open reading frame-9b suppresses innate immunity
+            by targeting mitochondria and the MAVS/TRAF3/TRAF6 signalosome
+  JOURNAL   J Immunol 193 (6), 3080-3089 (2014)
+   PUBMED   25135833
+  REMARK    INTERACTION WITH SARS-COV VIRUS PROTEIN ORF9B (MICROBIAL
+            INFECTION), AND SUBCELLULAR LOCATION.
+REFERENCE   50 (residues 1 to 540)
+  AUTHORS   Liu,S., Cai,X., Wu,J., Cong,Q., Chen,X., Li,T., Du,F., Ren,J.,
+            Wu,Y.T., Grishin,N.V. and Chen,Z.J.
+  TITLE     Phosphorylation of innate immune adaptor proteins MAVS, STING, and
+            TRIF induces IRF3 activation
+  JOURNAL   Science 347 (6227), aaa2630 (2015)
+   PUBMED   25636800
+  REMARK    FUNCTION, DOMAIN, INTERACTION WITH IRF3, PHOSPHORYLATION AT
+            SER-442, UBIQUITINATION, AND MUTAGENESIS OF SER-442.
+REFERENCE   51 (residues 1 to 540)
+  AUTHORS   Vaca Jacome,A.S., Rabilloud,T., Schaeffer-Reiss,C., Rompais,M.,
+            Ayoub,D., Lane,L., Bairoch,A., Van Dorsselaer,A. and Carapito,C.
+  TITLE     N-terminome analysis of the human mitochondrial proteome
+  JOURNAL   Proteomics 15 (14), 2519-2524 (2015)
+   PUBMED   25944712
+  REMARK    IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+REFERENCE   52 (residues 1 to 540)
+  AUTHORS   Gu,L., Fullam,A., McCormack,N., Hohn,Y. and Schroder,M.
+  TITLE     DDX3 directly regulates TRAF3 ubiquitination and acts as a scaffold
+            to co-ordinate assembly of signalling complexes downstream from
+            MAVS
+  JOURNAL   Biochem J 474 (4), 571-587 (2017)
+   PUBMED   27980081
+  REMARK    INTERACTION WITH DDX3X AND TRAF3.
+REFERENCE   53 (residues 1 to 540)
+  AUTHORS   Ju,L.G., Zhu,Y., Lei,P.J., Yan,D., Zhu,K., Wang,X., Li,Q.L.,
+            Li,X.J., Chen,J.W., Li,L.Y. and Wu,M.
+  TITLE     TTLL12 Inhibits the Activation of Cellular Antiviral Signaling
+            through Interaction with VISA/MAVS
+  JOURNAL   J Immunol 198 (3), 1274-1284 (2017)
+   PUBMED   28011935
+  REMARK    INTERACTION WITH TTLL12; TBK1 AND IKBKE.
+REFERENCE   54 (residues 1 to 540)
+  AUTHORS   Qian,S., Fan,W., Liu,T., Wu,M., Zhang,H., Cui,X., Zhou,Y., Hu,J.,
+            Wei,S., Chen,H., Li,X. and Qian,P.
+  TITLE     Seneca Valley Virus Suppresses Host Type I Interferon Production by
+            Targeting Adaptor Proteins MAVS, TRIF, and TANK for Cleavage
+  JOURNAL   J Virol 91 (16), e00823-17 (2017)
+   PUBMED   28566380
+  REMARK    INTERACTION WITH SENECA VALLEY VIRUS PROTEASE 3C (MICROBIAL
+            INFECTION), PROTEOLYTIC CLEAVAGE (MICROBIAL INFECTION), AND
+            MUTAGENESIS OF GLN-148; GLN-159; GLN-162; GLN-196 AND GLN-198.
+            Publication Status: Online-Only
+REFERENCE   55 (residues 1 to 540)
+  AUTHORS   Wang,B., Xi,X., Lei,X., Zhang,X., Cui,S., Wang,J., Jin,Q. and
+            Zhao,Z.
+  TITLE     Correction: Enterovirus 71 Protease 2Apro Targets MAVS to Inhibit
+            Anti-Viral Type I Interferon Responses
+  JOURNAL   PLoS Pathog 13 (3), e1006243 (2017)
+   PUBMED   28253362
+  REMARK    PROTEOLYTIC CLEAVAGE (MICROBIAL INFECTION).
+            Correction to:[PLoS Pathog. 2013 Mar;9(3):e1003231. PMID: 23555247]
+            Publication Status: Online-Only
+REFERENCE   56 (residues 1 to 540)
+  AUTHORS   Nie,Y., Ran,Y., Zhang,H.Y., Huang,Z.F., Pan,Z.Y., Wang,S.Y. and
+            Wang,Y.Y.
+  TITLE     GPATCH3 negatively regulates RLR-mediated innate antiviral
+            responses by disrupting the assembly of VISA signalosome
+  JOURNAL   PLoS Pathog 13 (4), e1006328 (2017)
+   PUBMED   28414768
+  REMARK    INTERACTION WITH GPATCH3.
+            Publication Status: Online-Only
+REFERENCE   57 (residues 1 to 540)
+  AUTHORS   Yoshinaka,T., Kosako,H., Yoshizumi,T., Furukawa,R., Hirano,Y.,
+            Kuge,O., Tamada,T. and Koshiba,T.
+  TITLE     Structural Basis of Mitochondrial Scaffolds by Prohibitin
+            Complexes: Insight into a Role of the Coiled-Coil Region
+  JOURNAL   iScience 19, 1065-1078 (2019)
+   PUBMED   31522117
+  REMARK    INTERACTION WITH CLPB.
+REFERENCE   58 (residues 1 to 540)
+  AUTHORS   Zhu,W., Li,J., Zhang,R., Cai,Y., Wang,C., Qi,S., Chen,S., Liang,X.,
+            Qi,N. and Hou,F.
+  TITLE     TRAF3IP3 mediates the recruitment of TRAF3 to MAVS for antiviral
+            innate immunity
+  JOURNAL   EMBO J 38 (18), e102075 (2019)
+   PUBMED   31390091
+  REMARK    INTERACTION WITH TRAF3IP3.
+REFERENCE   59 (residues 1 to 540)
+  AUTHORS   Xu,H., He,X., Zheng,H., Huang,L.J., Hou,F., Yu,Z., de la Cruz,M.J.,
+            Borkowski,B., Zhang,X., Chen,Z.J. and Jiang,Q.X.
+  TITLE     Structural basis for the prion-like MAVS filaments in antiviral
+            innate immunity
+  JOURNAL   Elife 3, e01489 (2014)
+   PUBMED   24569476
+  REMARK    STRUCTURE BY ELECTRON MICROSCOPY (9.6 ANGSTROMS) OF 3-93, SUBUNIT,
+            AND MUTAGENESIS OF GLU-26 AND TRP-56.
+            Erratum:[Elife. 2015;4. doi: 10.7554/eLife.07546. PMID: 26314863]
+            Publication Status: Online-Only
+REFERENCE   60 (residues 1 to 540)
+  AUTHORS   Wu,B., Peisley,A., Tetrault,D., Li,Z., Egelman,E.H., Magor,K.E.,
+            Walz,T., Penczek,P.A. and Hur,S.
+  TITLE     Molecular imprinting as a signal-activation mechanism of the viral
+            RNA sensor RIG-I
+  JOURNAL   Mol Cell 55 (4), 511-523 (2014)
+   PUBMED   25018021
+  REMARK    X-RAY CRYSTALLOGRAPHY (3.4 ANGSTROMS) OF 1-99 IN COMPLEX WITH
+            DDX58/RIG-I, STRUCTURE BY ELECTRON MICROSCOPY (3.64 ANGSTROMS) OF
+            1-97, AND SUBUNIT.
+REFERENCE   61 (residues 1 to 540)
+  AUTHORS   Zhao,B., Shu,C., Gao,X., Sankaran,B., Du,F., Shelton,C.L.,
+            Herr,A.B., Ji,J.Y. and Li,P.
+  TITLE     Structural basis for concerted recruitment and activation of IRF-3
+            by innate immune adaptor proteins
+  JOURNAL   Proc Natl Acad Sci U S A 113 (24), E3403-E3412 (2016)
+   PUBMED   27302953
+  REMARK    X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS) OF 433-450 IN COMPLEX WITH
+            IRF3, INTERACTION WITH IRF3, PHOSPHORYLATION AT SER-442, AND
+            MUTAGENESIS OF SER-442.
+COMMENT     On or before May 26, 2009 this sequence version replaced
+            gi:121941172, gi:74727637, gi:74745383.
+            [FUNCTION] Required for innate immune defense against viruses
+            (PubMed:16125763, PubMed:16127453, PubMed:16153868,
+            PubMed:16177806, PubMed:19631370, PubMed:20451243, PubMed:23087404,
+            PubMed:20127681, PubMed:21170385). Acts downstream of DHX33,
+            DDX58/RIG-I and IFIH1/MDA5, which detect intracellular dsRNA
+            produced during viral replication, to coordinate pathways leading
+            to the activation of NF-kappa-B, IRF3 and IRF7, and to the
+            subsequent induction of antiviral cytokines such as IFN-beta and
+            RANTES (CCL5) (PubMed:16125763, PubMed:16127453, PubMed:16153868,
+            PubMed:16177806, PubMed:19631370, PubMed:20451243, PubMed:23087404,
+            PubMed:25636800, PubMed:20127681, PubMed:21170385). Peroxisomal and
+            mitochondrial MAVS act sequentially to create an antiviral cellular
+            state (PubMed:20451243). Upon viral infection, peroxisomal MAVS
+            induces the rapid interferon-independent expression of defense
+            factors that provide short-term protection, whereas mitochondrial
+            MAVS activates an interferon-dependent signaling pathway with
+            delayed kinetics, which amplifies and stabilizes the antiviral
+            response (PubMed:20451243). May activate the same pathways
+            following detection of extracellular dsRNA by TLR3
+            (PubMed:16153868). May protect cells from apoptosis
+            (PubMed:16125763). {ECO:0000269|PubMed:16125763,
+            ECO:0000269|PubMed:16127453, ECO:0000269|PubMed:16153868,
+            ECO:0000269|PubMed:16177806, ECO:0000269|PubMed:19631370,
+            ECO:0000269|PubMed:20127681, ECO:0000269|PubMed:20451243,
+            ECO:0000269|PubMed:21170385, ECO:0000269|PubMed:23087404,
+            ECO:0000269|PubMed:25636800}.
+            [SUBUNIT] Self-associates and polymerizes (via CARD domains) to
+            form 400 nM long three-stranded helical filaments on mitochondria,
+            filament nucleation requires interaction with DDX58/RIG-I whose
+            CARD domains act as a template for filament assembly
+            (PubMed:24569476, PubMed:25018021). Interacts with DDX58/RIG-I,
+            IFIH1/MDA5, TRAF2, TRAF6 and C1QBP (PubMed:16125763,
+            PubMed:16127453, PubMed:17600090). May interact with FADD, RIPK1,
+            CHUK and IKBKB (PubMed:16153868, PubMed:16177806, PubMed:16127453).
+            Interacts (when phosphorylated) with IRF3; following activation and
+            phosphorylation on the pLxIS motif by TBK1, recruits IRF3
+            (PubMed:25636800, PubMed:27302953). Interacts with NLRX1
+            (PubMed:18200010). Interaction with NLRX1 requires the CARD domain
+            (PubMed:18200010). Interacts with PSMA7 (PubMed:19734229).
+            Interacts with TRAFD1 (By similarity). Interacts (via C-terminus)
+            with PCBP2 in a complex containing MAVS/IPS1, PCBP2 and ITCH
+            (PubMed:19881509). Interacts with CYLD (PubMed:18636086). Interacts
+            with SRC (PubMed:19419966). Interacts with DHX58/LGP2 and IKBKE
+            (PubMed:16177806, PubMed:17020950, PubMed:28011935). Interacts with
+            STING1 (PubMed:19416887). Interacts with IFIT3 (via N-terminus)
+            (PubMed:21813773). Interacts with TBK1 only in the presence of
+            IFIT3 (PubMed:21813773, PubMed:28011935). Interacts with TTLL12;
+            the interaction prevents MAVS binding to TBK1 and IKBKE
+            (PubMed:28011935). Interacts with MUL1 (PubMed:23399697). Interacts
+            with ANKRD17 (PubMed:23711367). Interacts with NDFIP1
+            (PubMed:23087404). Interacts with SMURF1; the interaction is
+            mediated by NDFIP1 and leads to MAVS ubiquitination and degradation
+            (PubMed:23087404). Interacts with UBXN1; this interaction inhibits
+            MAVS-mediated antiviral pathway (PubMed:23545497). Interacts (via
+            C-terminus) with GPATCH3; the interaction is markedly increased
+            upon viral infection (PubMed:28414768). Directly interacts (via
+            CARD domain) with ATG5 and ATG12, either as ATG5 and ATG12 monomers
+            or as ATG12-ATG5 conjugates (PubMed:17709747). Interacts with DHX33
+            (via the helicase C-terminal domain) (By similarity). Interacts
+            with DDX3X (via C-terminus); this interaction occurs rapidly, but
+            transiently after Sendai virus infection (PubMed:20127681,
+            PubMed:21170385, PubMed:27980081). The interaction with DDX3X
+            potentiates MAVS-mediated IFNB induction (PubMed:20127681).
+            Conversely inhibition of this interaction, for instance by HCV core
+            protein, prevents MAVS-mediated IFNB induction (PubMed:21170385).
+            Transiently interacts with TRAF3 early during Sendai virus
+            infection (PubMed:27980081). Interacts with CLPB; the interaction
+            is enhanced by Sendai virus infection (PubMed:31522117). Interacts
+            with TRAF3IP3 (PubMed:31390091). {ECO:0000250,
+            ECO:0000250|UniProtKB:Q8VCF0, ECO:0000269|PubMed:16125763,
+            ECO:0000269|PubMed:16127453, ECO:0000269|PubMed:16153868,
+            ECO:0000269|PubMed:16177806, ECO:0000269|PubMed:17020950,
+            ECO:0000269|PubMed:17600090, ECO:0000269|PubMed:17709747,
+            ECO:0000269|PubMed:18200010, ECO:0000269|PubMed:18636086,
+            ECO:0000269|PubMed:19164550, ECO:0000269|PubMed:19416887,
+            ECO:0000269|PubMed:19419966, ECO:0000269|PubMed:19734229,
+            ECO:0000269|PubMed:19881509, ECO:0000269|PubMed:20127681,
+            ECO:0000269|PubMed:21170385, ECO:0000269|PubMed:21813773,
+            ECO:0000269|PubMed:23087404, ECO:0000269|PubMed:23399697,
+            ECO:0000269|PubMed:23545497, ECO:0000269|PubMed:23711367,
+            ECO:0000269|PubMed:24569476, ECO:0000269|PubMed:25018021,
+            ECO:0000269|PubMed:25636800, ECO:0000269|PubMed:27302953,
+            ECO:0000269|PubMed:27980081, ECO:0000269|PubMed:28011935,
+            ECO:0000269|PubMed:28414768, ECO:0000269|PubMed:31390091,
+            ECO:0000269|PubMed:31522117}.
+            [SUBUNIT] (Microbial infection) Interacts with hepatitis C virus
+            (HCV) NS3/4A protease; this interaction leads to MAVS cleavage,
+            thereby preventing the establishment of an antiviral state.
+            {ECO:0000269|PubMed:16177806, ECO:0000269|PubMed:16301520}.
+            [SUBUNIT] (Microbial infection) Interacts with hepatitis GB virus B
+            NS3/4A protease; this interaction leads to MAVS cleavage.
+            {ECO:0000269|PubMed:17093192}.
+            [SUBUNIT] (Microbial infection) Interacts with human respiratory
+            syncytial virus/HRSV protein NS1; this interaction disrupts MAVS
+            binding to DDX58/RIG-I. {ECO:0000269|PubMed:22383950}.
+            [SUBUNIT] (Microbial infection) Interacts with Seneca Valley virus
+            protease 3C; this interaction allows the cleavage of MAVS and
+            subsequent suppression of host innate immunity.
+            {ECO:0000269|PubMed:28566380}.
+            [SUBUNIT] (Microbial infection) Interacts with SARS-CoV virus
+            protein ORF9b; this interaction mediates MAVS proteasomal
+            degradation. {ECO:0000269|PubMed:25135833}.
+            [INTERACTION] Q7Z434; P00519: ABL1; NbExp=6; IntAct=EBI-995373,
+            EBI-375543; Q7Z434; P46379: BAG6; NbExp=2; IntAct=EBI-995373,
+            EBI-347552; Q7Z434; Q07021: C1QBP; NbExp=5; IntAct=EBI-995373,
+            EBI-347528; Q7Z434; Q13137: CALCOCO2; NbExp=3; IntAct=EBI-995373,
+            EBI-739580; Q7Z434; O00571: DDX3X; NbExp=4; IntAct=EBI-995373,
+            EBI-353779; Q7Z434; O95786: DDX58; NbExp=13; IntAct=EBI-995373,
+            EBI-995350; Q7Z434; Q9BYX4: IFIH1; NbExp=5; IntAct=EBI-995373,
+            EBI-6115771; Q7Z434; Q14164: IKBKE; NbExp=4; IntAct=EBI-995373,
+            EBI-307369; Q7Z434; Q13568: IRF5; NbExp=2; IntAct=EBI-995373,
+            EBI-3931258; Q7Z434; Q9Y2W7: KCNIP3; NbExp=3; IntAct=EBI-995373,
+            EBI-751501; Q7Z434; Q8IWA4: MFN1; NbExp=2; IntAct=EBI-995373,
+            EBI-1048197; Q7Z434; Q96P20: NLRP3; NbExp=4; IntAct=EBI-995373,
+            EBI-6253230; Q7Z434; Q9Y6K5: OAS3; NbExp=2; IntAct=EBI-995373,
+            EBI-6115729; Q7Z434; O43353: RIPK2; NbExp=3; IntAct=EBI-995373,
+            EBI-358522; Q7Z434; P42224: STAT1; NbExp=3; IntAct=EBI-995373,
+            EBI-1057697; Q7Z434; Q86WV6: STING1; NbExp=8; IntAct=EBI-995373,
+            EBI-2800345; Q7Z434; Q9UHD2: TBK1; NbExp=2; IntAct=EBI-995373,
+            EBI-356402; Q7Z434; Q12933: TRAF2; NbExp=5; IntAct=EBI-995373,
+            EBI-355744; Q7Z434; Q9Y4K3: TRAF6; NbExp=4; IntAct=EBI-995373,
+            EBI-359276; Q7Z434; Q14139: UBE4A; NbExp=2; IntAct=EBI-995373,
+            EBI-1048119; Q7Z434; Q7TFA1: 7b; Xeno; NbExp=2; IntAct=EBI-995373,
+            EBI-25492846; Q7Z434; P59636: 9b; Xeno; NbExp=5; IntAct=EBI-995373,
+            EBI-9021274; Q7Z434; Q6WB96: M2; Xeno; NbExp=4; IntAct=EBI-995373,
+            EBI-6863628; Q7Z434; Q69027: X; Xeno; NbExp=2; IntAct=EBI-995373,
+            EBI-3650820; Q7Z434; A2T3M4; Xeno; NbExp=4; IntAct=EBI-995373,
+            EBI-9522123; Q7Z434; P0DTD8; Xeno; NbExp=2; IntAct=EBI-995373,
+            EBI-25475914; Q7Z434-1; Q9H1Y0: ATG5; NbExp=4; IntAct=EBI-15577799,
+            EBI-1047414; Q7Z434-1; O95786-1: DDX58; NbExp=8;
+            IntAct=EBI-15577799, EBI-15577823; Q7Z434-1; Q9BYX4: IFIH1;
+            NbExp=3; IntAct=EBI-15577799, EBI-6115771; Q7Z434-1; Q86UT6-1:
+            NLRX1; NbExp=3; IntAct=EBI-15577799, EBI-15680006; Q7Z434-1;
+            Q96EQ8: RNF125; NbExp=2; IntAct=EBI-15577799, EBI-2339208;
+            Q7Z434-1; Q86WV6: STING1; NbExp=7; IntAct=EBI-15577799,
+            EBI-2800345; Q7Z434-1; P61964: WDR5; NbExp=3; IntAct=EBI-15577799,
+            EBI-540834; Q7Z434-1; Q91WS2-1: Nlrp6; Xeno; NbExp=2;
+            IntAct=EBI-15577799, EBI-16182226.
+            [SUBCELLULAR LOCATION] Mitochondrion outer membrane
+            {ECO:0000269|PubMed:16125763}. Mitochondrion
+            {ECO:0000269|PubMed:11780052, ECO:0000269|PubMed:17709747,
+            ECO:0000269|PubMed:20127681, ECO:0000269|PubMed:21170385,
+            ECO:0000269|PubMed:25135833}. Peroxisome
+            {ECO:0000269|PubMed:20451243}.
+            [ALTERNATIVE PRODUCTS] Event=Alternative splicing; Named
+            isoforms=6; Name=1; IsoId=Q7Z434-1; Sequence=Displayed; Name=2;
+            IsoId=Q7Z434-2; Sequence=VSP_010262, VSP_010263; Name=3;
+            IsoId=Q7Z434-3; Sequence=VSP_010261, VSP_010264; Name=4;
+            IsoId=Q7Z434-4; Sequence=VSP_045872; Name=5; Synonyms=MAVS1b, exon
+            3 deletion; IsoId=Q7Z434-5; Sequence=VSP_047817, VSP_047818;
+            Name=6; Synonyms=MAVS1a, exon 2 deletion; IsoId=Q7Z434-6;
+            Sequence=VSP_047816, VSP_010263.
+            [TISSUE SPECIFICITY] Present in T-cells, monocytes, epithelial
+            cells and hepatocytes (at protein level). Ubiquitously expressed,
+            with highest levels in heart, skeletal muscle, liver, placenta and
+            peripheral blood leukocytes. {ECO:0000269|PubMed:16125763,
+            ECO:0000269|PubMed:16127453, ECO:0000269|PubMed:16153868}.
+            [DOMAIN] The pLxIS motif constitutes an IRF3-binding motif:
+            following phosphorylation by TBK1, the phosphorylated pLxIS motif
+            of MAVS recruits IRF3 (PubMed:25636800). IRF3 is then
+            phosphorylated and activated by TBK1 to induce type-I interferons
+            and other cytokines (PubMed:25636800).
+            {ECO:0000269|PubMed:25636800}.
+            [DOMAIN] Both CARD and transmembrane domains are essential for
+            antiviral function. The CARD domain is responsible for interaction
+            with DDX58/RIG-I and IFIH1/MDA5. {ECO:0000269|PubMed:16125763}.
+            [DOMAIN] The transmembrane domain and residues 300-444 are
+            essential for its interaction with DHX58/LGP2.
+            {ECO:0000269|PubMed:17020950}.
+            [PTM] Following activation, phosphorylated by TBK1 at Ser-442 in
+            the pLxIS motif (PubMed:25636800, PubMed:27302953). The
+            phosphorylated pLxIS motif constitutes an IRF3-binding motif,
+            leading to recruitment of the transcription factor IRF3 to induce
+            type-I interferons and other cytokines (PubMed:25636800).
+            {ECO:0000269|PubMed:25636800, ECO:0000269|PubMed:27302953}.
+            [PTM] (Microbial infection) Cleaved and degraded by hepatitis A
+            virus (HAV) protein 3ABC allowing the virus to disrupt the
+            activation of host IRF3 through the MDA5 pathway.
+            {ECO:0000269|PubMed:17438296}.
+            [PTM] (Microbial infection) Cleaved by the protease 2A of
+            coxsackievirus B3, poliovirus and enterovirus 71 allowing the virus
+            to disrupt the host type I interferon production.
+            {ECO:0000269|PubMed:24390337, ECO:0000269|PubMed:28253362}.
+            [PTM] Ubiquitinated (PubMed:19881509, PubMed:23087404,
+            PubMed:25636800). Undergoes 'Lys-48'-linked polyubiquitination
+            catalyzed by ITCH; ITCH-dependent polyubiquitination is mediated by
+            the interaction with PCBP2 and leads to MAVS/IPS1 proteasomal
+            degradation (PubMed:19881509). Ubiquitinated by RNF125, leading to
+            its degradation by the proteasome (PubMed:17460044). Undergoes
+            'Lys-48'-linked ubiquitination catalyzed by SMURF1
+            (PubMed:23087404). {ECO:0000269|PubMed:17460044,
+            ECO:0000269|PubMed:19881509, ECO:0000269|PubMed:23087404,
+            ECO:0000269|PubMed:25636800}.
+            [PTM] (Microbial infection) Cleaved by Seneca Valley virus protease
+            3C allowing the virus to suppress interferon type-I production.
+            {ECO:0000269|PubMed:28566380}.
+            [PTM] (Microbial infection) Cleaved by HCV protease NS3/4A, thereby
+            preventing the establishment of an antiviral state.
+            {ECO:0000269|PubMed:16177806, ECO:0000269|PubMed:16301520}.
+            [MISCELLANEOUS] [Isoform 5]: Selectively activates an IFNbeta but
+            not an IL8 promoter. Interacts with RIP1 and FADD and exhibits
+            anti-viral activity against VSV infection. {ECO:0000305}.
+            [SEQUENCE CAUTION] Sequence=BAA86585.1; Type=Erroneous initiation;
+            Note=Extended N-terminus.; Evidence={ECO:0000305};
+            Sequence=BAB14684.1; Type=Frameshift; Evidence={ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..540
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     gene            1..540
+                     /gene="MAVS"
+                     /gene_synonym="IPS1"
+                     /gene_synonym="KIAA1271"
+                     /gene_synonym="VISA"
+     Protein         1..540
+                     /product="Mitochondrial antiviral-signaling protein"
+                     /note="MAVS; CARD adapter inducing interferon beta;
+                     Interferon beta promoter stimulator protein 1; Putative
+                     NF-kappa-B-activating protein 031N;
+                     Virus-induced-signaling adapter; Cardif; IPS-1; VISA"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..540
+                     /region_name="Mature chain"
+                     /note="Mitochondrial antiviral-signaling protein.
+                     /id=PRO_0000144096."
+     Region          1..513
+                     /region_name="Topological domain"
+                     /note="Cytoplasmic. /evidence=ECO:0000305."
+     Region          1..141
+                     /region_name="Splicing variant"
+                     /note="Missing (in isoform 4).
+                     /evidence=ECO:0000303|PubMed:14702039. /id=VSP_045872."
+     Region          3..93
+                     /region_name="CARD_IPS1"
+                     /note="Caspase activation and recruitment domain (CARD)
+                     found in IPS-1; cd08811"
+                     /db_xref="CDD:260073"
+     Region          3..14
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:2VGQ."
+     Region          10..77
+                     /region_name="Domain"
+                     /note="CARD."
+     Region          10..77
+                     /region_name="Region of interest in the sequence"
+                     /note="Required for interaction with NLRX1.
+                     /evidence=ECO:0000269|PubMed:18200010."
+     Region          16..19
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:2VGQ."
+     Region          24..27
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:2VGQ."
+     Site            26
+                     /site_type="mutagenized"
+                     /note="E->A,R: Impairs filament formation and abolishes
+                     antiviral signaling activity.
+                     /evidence=ECO:0000269|PubMed:24569476."
+     Region          28..30
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:2VGQ."
+     Region          36..49
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:2VGQ."
+     Region          40..131
+                     /region_name="Splicing variant"
+                     /note="DRLRATCTLSGNRDTLWHLFNTLQRRPGWVEYFIAALRGCELVDLADEVAS
+                     VYQSYQPRTSDRPPDPLEPPSLPAERPGPPTPAAAHSIPYN ->
+                     GPRTVPQTHWSHRHFLLRGQGPPHLLRPTASPTTAAERRSQVTPCLSRRPRRQSPQER
+                     IQSKPCRRSAPEPSQGIQMVAPWSPPLTWQPSAL (in isoform 6).
+                     /evidence=ECO:0000303|PubMed:18207245. /id=VSP_047816."
+     Region          42
+                     /region_name="Conflict"
+                     /note="L -> P (in Ref. 8; BAC77356).
+                     /evidence=ECO:0000305."
+     Region          51..62
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:2VGQ."
+     Site            54
+                     /site_type="mutagenized"
+                     /note="T->A: Impairs ability to induce IFN-beta. Loss of
+                     interaction with the ATG5-ATG12 conjugate.
+                     /evidence=ECO:0000269|PubMed:16125763,
+                     ECO:0000269|PubMed:17709747."
+     Site            56
+                     /site_type="mutagenized"
+                     /note="W->A,E,R: Impairs filament formation and abolishes
+                     antiviral signaling activity.
+                     /evidence=ECO:0000269|PubMed:24569476."
+     Region          64..148
+                     /region_name="Splicing variant"
+                     /note="RRPGWVEYFIAALRGCELVDLADEVASVYQSYQPRTSDRPPDPLEPPSLPA
+                     ERPGPPTPAAAHSIPYNSCREKEPSYPMPVQETQ ->
+                     LPTWAGEETPGGQSSGRGLDFSSLTSGAVWLWQMSDFWSCFSTWTVSIWLILHWVLLR
+                     LNLQVFAKCLAQSKWPLLLPSLSCPTW (in isoform 3).
+                     /evidence=ECO:0000303|PubMed:14702039. /id=VSP_010261."
+     Site            67..69
+                     /site_type="mutagenized"
+                     /note="GWV->AAA: Impairs ability to induce IFN-beta.
+                     /evidence=ECO:0000269|PubMed:16125763."
+     Region          68..78
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:2VGQ."
+     Region          79
+                     /region_name="Variant"
+                     /note="C -> F (in dbSNP:rs11905552). /id=VAR_048609."
+     Region          79
+                     /region_name="Variant"
+                     /note="C -> S (in dbSNP:rs11908032). /id=VAR_059197."
+     Region          82..92
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:2VGQ."
+     Region          93
+                     /region_name="Variant"
+                     /note="Q -> E (in dbSNP:rs17857295).
+                     /evidence=ECO:0000269|PubMed:14702039,
+                     ECO:0000269|PubMed:15489334, ECO:0000269|PubMed:16127453,
+                     ECO:0000269|PubMed:16153868. /id=VAR_048610."
+     Region          95..97
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:2MS8."
+     Region          98..124
+                     /region_name="Splicing variant"
+                     /note="RTSDRPPDPLEPPSLPAERPGPPTPAA ->
+                     QFRASPADAQPQSHPKESRWWPPGVLL (in isoform 5).
+                     /evidence=ECO:0000303|PubMed:14702039,
+                     ECO:0000303|PubMed:18207245. /id=VSP_047817."
+     Region          99..131
+                     /region_name="Splicing variant"
+                     /note="TSDRPPDPLEPPSLPAERPGPPTPAAAHSIPYN ->
+                     ERPALALLDPQPAPWPPLSFSLSLYFLPFSVILFLVTVKR (in isoform 2).
+                     /evidence=ECO:0000303|PubMed:14702039. /id=VSP_010262."
+     Region          103..153
+                     /region_name="Compositionally biased region"
+                     /note="Pro-rich."
+     Region          125..540
+                     /region_name="Splicing variant"
+                     /note="Missing (in isoform 5).
+                     /evidence=ECO:0000303|PubMed:14702039,
+                     ECO:0000303|PubMed:18207245. /id=VSP_047818."
+     Region          132..540
+                     /region_name="Splicing variant"
+                     /note="Missing (in isoform 2 and isoform 6).
+                     /evidence=ECO:0000303|PubMed:14702039,
+                     ECO:0000303|PubMed:18207245. /id=VSP_010263."
+     Region          143..147
+                     /region_name="Region of interest in the sequence"
+                     /note="Interaction with TRAF2.
+                     /evidence=ECO:0000269|PubMed:16153868."
+     Site            145
+                     /site_type="mutagenized"
+                     /note="Q->N: No interaction with TRAF2.
+                     /evidence=ECO:0000269|PubMed:16153868."
+     Site            148..149
+                     /site_type="other"
+                     /note="(Microbial infection) Cleavage; by viral Seneca
+                     Valley virus protease 3C.
+                     /evidence=ECO:0000269|PubMed:28566380."
+     Site            148
+                     /site_type="other"
+                     /note="(Microbial infection) Cleavage by CV3B.
+                     /evidence=ECO:0000269|PubMed:21436888."
+     Site            148
+                     /site_type="mutagenized"
+                     /note="Q->A: Complete loss of cleavage by Seneca Valley
+                     virus protease 3C. /evidence=ECO:0000269|PubMed:28566380."
+     Region          149..540
+                     /region_name="Splicing variant"
+                     /note="Missing (in isoform 3).
+                     /evidence=ECO:0000303|PubMed:14702039. /id=VSP_010264."
+     Site            152
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:18669648,
+                     ECO:0000244|PubMed:19690332, ECO:0000244|PubMed:24275569."
+     Region          153..158
+                     /region_name="Region of interest in the sequence"
+                     /note="Interaction with TRAF6."
+     Site            155
+                     /site_type="mutagenized"
+                     /note="E->D: No interaction with TRAF6; when associated
+                     with D-457. /evidence=ECO:0000269|PubMed:16153868."
+     Site            157
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:18669648."
+     Site            159
+                     /site_type="mutagenized"
+                     /note="Q->A: No effect on cleavage by Seneca Valley virus
+                     protease 3C. /evidence=ECO:0000269|PubMed:28566380."
+     Site            162
+                     /site_type="mutagenized"
+                     /note="Q->A: No effect on cleavage by Seneca Valley virus
+                     protease 3C. /evidence=ECO:0000269|PubMed:28566380."
+     Site            165
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:18669648,
+                     ECO:0000244|PubMed:19690332, ECO:0000244|PubMed:24275569."
+     Site            180
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:24275569."
+     Site            188
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:24275569."
+     Region          191
+                     /region_name="Conflict"
+                     /note="T -> N (in Ref. 9; BAF84474).
+                     /evidence=ECO:0000305."
+     Site            196
+                     /site_type="mutagenized"
+                     /note="Q->A: No effect on cleavage by Seneca Valley virus
+                     protease 3C. /evidence=ECO:0000269|PubMed:28566380."
+     Region          198
+                     /region_name="Variant"
+                     /note="Q -> K (in dbSNP:rs7262903).
+                     /evidence=ECO:0000269|PubMed:15489334,
+                     ECO:0000269|PubMed:16125763, ECO:0000269|PubMed:16177806.
+                     /id=VAR_048611."
+     Site            198
+                     /site_type="mutagenized"
+                     /note="Q->A: No effect on cleavage by Seneca Valley virus
+                     protease 3C. /evidence=ECO:0000269|PubMed:28566380."
+     Site            208..209
+                     /site_type="other"
+                     /note="(Microbial infection) Cleavage by protease 2A of
+                     enterovirus 71. /evidence=ECO:0000269|PubMed:28253362."
+     Site            209
+                     /site_type="mutagenized"
+                     /note="G->A: Complete loss of cleavage by protease 2A of
+                     enterovirus 71. /evidence=ECO:0000269|PubMed:28253362."
+     Site            215
+                     /site_type="phosphorylation"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000244|PubMed:24275569."
+     Site            222
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:16964243,
+                     ECO:0000244|PubMed:18669648, ECO:0000244|PubMed:23186163,
+                     ECO:0000244|PubMed:24275569."
+     Site            233
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:18669648."
+     Site            234
+                     /site_type="phosphorylation"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000244|PubMed:18669648."
+     Site            236
+                     /site_type="methylation"
+                     /note="Asymmetric dimethylarginine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VCF0."
+     Site            250..251
+                     /site_type="other"
+                     /note="(Microbial infection) Cleavage by protease 2A of
+                     enterovirus 71. /evidence=ECO:0000269|PubMed:28253362."
+     Site            251
+                     /site_type="mutagenized"
+                     /note="G->A: Complete loss of cleavage by protease 2A of
+                     enterovirus 71. /evidence=ECO:0000269|PubMed:28253362."
+     Site            253
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:20068231."
+     Site            258
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000244|PubMed:18669648,
+                     ECO:0000244|PubMed:20068231."
+     Site            264..265
+                     /site_type="other"
+                     /note="(Microbial infection) Cleavage by protease 2A of
+                     enterovirus 71. /evidence=ECO:0000269|PubMed:28253362."
+     Site            265
+                     /site_type="mutagenized"
+                     /note="G->A: Complete loss of cleavage by enterovirus 71.
+                     /evidence=ECO:0000269|PubMed:28253362."
+     Region          356
+                     /region_name="Conflict"
+                     /note="A -> V (in Ref. 8; BAC77356).
+                     /evidence=ECO:0000305."
+     Region          373
+                     /region_name="Conflict"
+                     /note="S -> P (in Ref. 8; BAC77356).
+                     /evidence=ECO:0000305."
+     Site            408
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VCF0."
+     Region          409
+                     /region_name="Variant"
+                     /note="S -> F (in dbSNP:rs7269320).
+                     /evidence=ECO:0000269|PubMed:15489334,
+                     ECO:0000269|PubMed:16125763, ECO:0000269|PubMed:16177806.
+                     /id=VAR_018448."
+     Site            427..428
+                     /site_type="other"
+                     /note="(Microbial infection) Cleavage; by HAV protein
+                     3ABC. /evidence=ECO:0000269|PubMed:17438296."
+     Site            427
+                     /site_type="mutagenized"
+                     /note="Q->A: No cleavage by HHAV 3ABC.
+                     /evidence=ECO:0000269|PubMed:17438296."
+     Site            435
+                     /site_type="mutagenized"
+                     /note="C->R: No effect on cleavage by NS3/4A protease
+                     complex. /evidence=ECO:0000269|PubMed:16301520."
+     Region          439..442
+                     /region_name="Short sequence motif of biological interest"
+                     /note="pLxIS motif.
+                     /evidence=ECO:0000269|PubMed:25636800."
+     Site            442
+                     /site_type="phosphorylation"
+                     /note="Phosphoserine; by TBK1.
+                     /evidence=ECO:0000269|PubMed:25636800,
+                     ECO:0000269|PubMed:27302953."
+     Site            442
+                     /site_type="mutagenized"
+                     /note="S->A: Abolished ability to bind and activate IRF3.
+                     /evidence=ECO:0000269|PubMed:25636800,
+                     ECO:0000269|PubMed:27302953."
+     Site            452
+                     /site_type="mutagenized"
+                     /note="C->R: No effect on cleavage by NS3/4A protease
+                     complex. /evidence=ECO:0000269|PubMed:16301520."
+     Region          455..460
+                     /region_name="Region of interest in the sequence"
+                     /note="Interaction with TRAF6."
+     Region          456..459
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:4Z8M."
+     Site            457
+                     /site_type="mutagenized"
+                     /note="E->D: No interaction with TRAF6; when associated
+                     with D-155. /evidence=ECO:0000269|PubMed:16153868."
+     Site            463
+                     /site_type="mutagenized"
+                     /note="E->A: No effect on cleavage by HHAV 3ABC.
+                     /evidence=ECO:0000269|PubMed:17438296."
+     Region          504..507
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:3RC5."
+     Site            508..509
+                     /site_type="other"
+                     /note="(Microbial infection) Cleavage; by HCV and
+                     hepatitis GB virus B NS3/4A protease complex.
+                     /evidence=ECO:0000269|PubMed:16177806,
+                     ECO:0000269|PubMed:16301520."
+     Site            508
+                     /site_type="mutagenized"
+                     /note="C->A,R: No cleavage by HCV and hepatitis GB virus B
+                     NS3/4A protease complex.
+                     /evidence=ECO:0000269|PubMed:16177806,
+                     ECO:0000269|PubMed:16301520, ECO:0000269|PubMed:17093192."
+     Region          514..534
+                     /region_name="Transmembrane region"
+                     /note="Helical. /evidence=ECO:0000255."
+     Region          535..540
+                     /region_name="Topological domain"
+                     /note="Mitochondrial intermembrane.
+                     /evidence=ECO:0000305."
+ORIGIN      
+        1 mpfaedktyk yicrnfsnfc nvdvveilpy lpcltardqd rlratctlsg nrdtlwhlfn
+       61 tlqrrpgwve yfiaalrgce lvdladevas vyqsyqprts drppdplepp slpaerpgpp
+      121 tpaaahsipy nscrekepsy pmpvqetqap espgenseqa lqtlspraip rnpdggples
+      181 ssdlaalspl tssghqeqdt elgsthtaga tssltpsrgp vspsvsfqpl arstprasrl
+      241 pgptgsvvst gtsfsssspg lasagaaegk qgaesdqaep iicssgaeap anslpskvpt
+      301 tlmpvntval kvpanpasvs tvpsklptss kppgavpsna ltnpapsklp instragmvp
+      361 skvptsmvlt kvsastvptd gssrneetpa aptpagatgg ssawldssse nrglgselsk
+      421 pgvlasqvds pfsgcfedla isastslgmg pchgpeeney ksegtfgihv aenpsiqlle
+      481 gnpgppadpd ggprpqadrk fqerevpchr pspgalwlqv avtgvlvvtl lvvlyrrrlh
+//
+
