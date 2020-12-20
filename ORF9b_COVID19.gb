@@ -1,0 +1,124 @@
+LOCUS       ORF9B_SARS2               97 aa            linear   VRL 02-DEC-2020
+DEFINITION  RecName: Full=ORF9b protein; Short=ORF9b; AltName: Full=Accessory
+            protein 9b; AltName: Full=ORF-9b; AltName: Full=Protein 9b.
+ACCESSION   P0DTD2
+VERSION     P0DTD2.1
+DBSOURCE    UniProtKB: locus ORF9B_SARS2, accession P0DTD2;
+            class: standard.
+            created: Apr 22, 2020.
+            sequence updated: Apr 22, 2020.
+            annotation updated: Dec 2, 2020.
+            xrefs: MN908947.3, 6Z4U_A, 6Z4U_B
+            xrefs (non-sequence databases): PDBsum:6Z4U, SMR:P0DTD2,
+            BioGRID:4383874, IntAct:P0DTD2, Proteomes:UP000464024, GO:0044162,
+            GO:0044165, GO:0033650, GO:0042025, GO:0016020, GO:0019012,
+            GO:0039545, InterPro:IPR018542, InterPro:IPR037223, Pfam:PF09399,
+            SUPFAM:SSF141666, PROSITE:PS51920
+KEYWORDS    3D-structure; Host cytoplasm; Host cytoplasmic vesicle; Host
+            endoplasmic reticulum; Host membrane; Host mitochondrion; Host
+            nucleus; Host-virus interaction; Inhibition of host innate immune
+            response by virus; Inhibition of host MAVS by virus; Inhibition of
+            host RLR pathway by virus; Membrane; Reference proteome; Viral
+            immunoevasion; Virion.
+SOURCE      Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)
+  ORGANISM  Severe acute respiratory syndrome coronavirus 2
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Nidovirales; Cornidovirineae; Coronaviridae; Orthocoronavirinae;
+            Betacoronavirus; Sarbecovirus.
+REFERENCE   1  (residues 1 to 97)
+  AUTHORS   Wu,F., Zhao,S., Yu,B., Chen,Y.M., Wang,W., Song,Z.G., Hu,Y.,
+            Tao,Z.W., Tian,J.H., Pei,Y.Y., Yuan,M.L., Zhang,Y.L., Dai,F.H.,
+            Liu,Y., Wang,Q.M., Zheng,J.J., Xu,L., Holmes,E.C. and Zhang,Y.Z.
+  TITLE     A new coronavirus associated with human respiratory disease in
+            China
+  JOURNAL   Nature 579 (7798), 265-269 (2020)
+   PUBMED   32015508
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+            Erratum:[Nature. 2020 Apr;580(7803):E7. PMID: 32296181]
+COMMENT     [FUNCTION] Plays a role in the inhibition of host innate immune
+            response by targeting the mitochondrial-associated adapter MAVS.
+            Mechanistically, usurps the E3 ligase ITCH to trigger the
+            degradation of MAVS, TRAF3, and TRAF6. In addition, causes
+            mitochondrial elongation by triggering ubiquitination and
+            proteasomal degradation of dynamin-like protein 1/DNM1L.
+            {ECO:0000250|UniProtKB:P59636}.
+            [SUBUNIT] Homodimer. Interacts with host XPO1; this interaction
+            mediates protein ORF9b export out of the nucleus. Interacts with
+            host MAVS. Interacts with protein ORF6.
+            {ECO:0000250|UniProtKB:P59636}.
+            [SUBCELLULAR LOCATION] Virion {ECO:0000250|UniProtKB:P59636}. Host
+            cytoplasmic vesicle membrane {ECO:0000250|UniProtKB:P59636};
+            Peripheral membrane protein {ECO:0000250|UniProtKB:P59636}. Host
+            cytoplasm {ECO:0000250|UniProtKB:P59636}. Host endoplasmic
+            reticulum {ECO:0000250|UniProtKB:P59636}. Host nucleus
+            {ECO:0000250|UniProtKB:P59636}. Host mitochondrion
+            {ECO:0000250|UniProtKB:P59636}. Note=Binds non-covalently to
+            intracellular lipid bilayers. {ECO:0000250|UniProtKB:P59636}.
+            [MISCELLANEOUS] The gene encoding this protein is included within
+            the N gene (alternative ORF). {ECO:0000250|UniProtKB:P59636}.
+            [SIMILARITY] Belongs to the coronavirus group 2 protein 9b family.
+            {ECO:0000305}.
+FEATURES             Location/Qualifiers
+     source          1..97
+                     /organism="Severe acute respiratory syndrome coronavirus
+                     2"
+                     /host="Homo sapiens (Human)"
+                     /db_xref="taxon:2697049"
+     gene            1..97
+                     /locus_tag="9b"
+     Protein         1..97
+                     /product="ORF9b protein"
+                     /note="ORF9b; Accessory protein 9b; ORF-9b; Protein 9b"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..97
+                     /region_name="Mature chain"
+                     /note="ORF9b protein.
+                     /evidence=ECO:0000250|UniProtKB:P59636.
+                     /id=PRO_0000449657."
+     Region          1..97
+                     /region_name="SARS_lipid_bind"
+                     /note="SARS lipid binding protein; pfam09399"
+                     /db_xref="CDD:286484"
+     Region          5..7
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          8..97
+                     /region_name="Domain"
+                     /note="9b.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU01268."
+     Region          12..15
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          19..23
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          40..42
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          44..50
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          45..53
+                     /region_name="Short sequence motif of biological interest"
+                     /note="Nuclear export signal.
+                     /evidence=ECO:0000250|UniProtKB:P59636."
+     Region          52..61
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          64..66
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          68..74
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          84..86
+                     /region_name="Helical region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+     Region          89..96
+                     /region_name="Beta-strand region"
+                     /note="/evidence=ECO:0000244|PDB:6Z4U."
+ORIGIN      
+        1 mdpkisemhp alrlvdpqiq lavtrmenav grdqnnvgpk vypiilrlgs plslnmarkt
+       61 lnsledkafq ltpiavqmtk latteelpde fvvvtvk
+//
+
