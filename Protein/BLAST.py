@@ -5,7 +5,7 @@ from Bio.Blast import NCBIXML
 #Fazer os BLASTs!
 #   TRAF3
 TRAF3_blast = SeqIO.read(open('TRAF3.fa'), format ='fasta')
-TRAF3_result = NCBIWWW.qblast('blastp', 'nr', TRAF3_blast.format('fasta'))
+TRAF3_result = NCBIWWW.qblast('blastp', 'nr', TRAF3_blast.format('fasta'), hitlist_size=20, expect=1)
 save_TRAF3_blast = open('TRAF3_BLAST.xml', 'w')
 save_TRAF3_blast.writelines(TRAF3_result.read())
 save_TRAF3_blast.close()
@@ -13,7 +13,7 @@ TRAF3_result.close()
 
 #   MAVS
 MAVS_blast = SeqIO.read(open('MAVS.fa'), format ='fasta')
-MAVS_result = NCBIWWW.qblast('blastp', 'nr', MAVS_blast.format('fasta'))
+MAVS_result = NCBIWWW.qblast('blastp', 'nr', MAVS_blast.format('fasta'), hitlist_size=20, expect=1)
 save_MAVS_blast = open('MAVS_BLAST.xml', 'w')
 save_MAVS_blast.writelines(MAVS_result.read())
 save_MAVS_blast.close()
@@ -21,7 +21,7 @@ MAVS_result.close()
 
 #   ORF9b
 ORF9b_blast = SeqIO.read(open('ORF9b_COVID19.fa'), format ='fasta')
-ORF9b_result = NCBIWWW.qblast('blastp', 'nr', ORF9b_blast.format('fasta'))
+ORF9b_result = NCBIWWW.qblast('blastp', 'nr', ORF9b_blast.format('fasta'), hitlist_size=20, expect=1)
 save_ORF9b_blast = open('ORF9b_BLAST.xml', 'w')
 save_ORF9b_blast.writelines(ORF9b_result.read())
 save_ORF9b_blast.close()
