@@ -20,9 +20,9 @@ print('Organismo:', record.annotations['organism'])
 featregion = [i for i in range(len(record.features)) if record.features[i].type=='Region']
 
 for  k in featregion:
-    print (record.features[k].location)
+    print (record.features[k])
     print(record.features[k].extract(record.seq))
-
+    print('---------')
 
 #   MAVS
 record1 = SeqIO.read("MAVS.gb", "genbank")
@@ -42,9 +42,9 @@ print('Organismo:', record1.annotations['organism'])
 featregion1 = [i for i in range(len(record1.features)) if record1.features[i].type=='Region']
 
 for k in featregion1:
-    print (record1.features[k].location)
+    print (record1.features[k])
     print(record1.features[k].extract(record1.seq))
-
+    print('---------')
 
 #   ORF9b
 record2 = SeqIO.read("ORF9b_COVID19.gb", "genbank")
@@ -64,6 +64,6 @@ print('Organismo:', record2.annotations['organism'])
 featregion2 = [i for i in range(len(record2.features)) if record2.features[i].type=='Region']
 
 for k in featregion2:
-    print (record2.features[k].location)
+    print (record2.features[k])
     print(record2.features[k].extract(record2.seq))
-    print(record2.features[k].sub_features)
+    print('---------')
