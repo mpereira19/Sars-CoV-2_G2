@@ -1,7 +1,7 @@
 # Annotations e Features
 #   TRAF3
 from Bio import SeqIO
-orfs = ['TRAF3', 'MAVS', 'ORF9b_COVID19']
+orfs = ['TRAF3', 'MAVS', 'ORF9b']
 
 for orf in orfs:
     record = SeqIO.read(orf + ".gb", "genbank")
@@ -29,6 +29,9 @@ for orf in orfs:
         print(record.features[k].location)
         print(record.features[k].extract(record.seq))
         print(record.features[k].qualifiers['note'])
-        print('---------')
+        if k != featregion[-1]:
+            print('---------')
     print()
+    if orf != orfs[-1]:
+        print('############################################')
     print()

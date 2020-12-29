@@ -3,349 +3,62 @@
 sequence : sp|P0DTD2.1| RecName: Full=ORF9b protein; Short=ORF9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b; AltName: Full=Protein 9b [Severe acute respiratory syndrome coronavirus 2] >pdb|6Z4U|A X-ray Crystallographic Structure of Orf9b from SARS-CoV-2 [Severe acute respiratory syndrome coronavirus 2] >pdb|6Z4U|B X-ray Crystallographic Structure of Orf9b from SARS-CoV-2 [Severe acute respiratory syndrome coronavirus 2] >pdb|7KDT|B Human Tom70 in complex with SARS CoV2 Orf9b [Severe acute respiratory syndrome coronavirus 2]
 length: 97
 id: sp|P0DTD2.1|
-e-value: 1.516e-63
+e-value: 1.54204e-63
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : sp|Q3LZX3.1| RecName: Full=Protein 9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b [Bat SARS coronavirus HKU3] >gb|AAY88875.1| hypothetical protein orf9b [Bat SARS coronavirus HKU3-1] >gb|AAZ41349.1| hypothetical protein [Bat SARS coronavirus HKU3-3]
 length: 97
 id: sp|Q3LZX3.1|
-e-value: 5.02926e-44
+e-value: 5.11564e-44
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AHX37567.1| protein 13 [Rhinolophus affinis coronavirus]
 length: 98
 id: gb|AHX37567.1|
-e-value: 3.65384e-43
+e-value: 3.71659e-43
 Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AAZ41338.1| hypothetical protein [Bat SARS coronavirus HKU3-2] >gb|QND76031.1| ORF9b [Bat SARS coronavirus HKU3] >gb|QND76045.1| ORF9b [Bat SARS coronavirus HKU3]
 length: 97
 id: gb|AAZ41338.1|
-e-value: 6.48069e-43
+e-value: 6.59199e-43
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|ADE34788.1| hypothetical protein [Bat SARS coronavirus HKU3-9] >gb|ADE34799.1| hypothetical protein [Bat SARS coronavirus HKU3-10] >gb|ADE34810.1| hypothetical protein [Bat SARS coronavirus HKU3-11]
 length: 97
 id: gb|ADE34788.1|
-e-value: 1.15911e-42
+e-value: 1.17902e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AAZ67041.1| ORF9a [Bat SARS CoV Rm1/2004]
 length: 97
 id: gb|AAZ67041.1|
-e-value: 1.81742e-42
+e-value: 1.84863e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AVP78050.1| hypothetical protein [Bat SARS-like coronavirus]
 length: 97
 id: gb|AVP78050.1|
-e-value: 2.19e-42
+e-value: 2.22761e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AVP78039.1| hypothetical protein [Bat SARS-like coronavirus]
 length: 97
 id: gb|AVP78039.1|
-e-value: 2.72725e-42
+e-value: 2.77409e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|ADE34731.1| hypothetical protein [Bat SARS coronavirus HKU3-4] >gb|ADE34742.1| hypothetical protein [Bat SARS coronavirus HKU3-5] >gb|ADE34753.1| hypothetical protein [Bat SARS coronavirus HKU3-6] >gb|ADE34832.1| hypothetical protein [Bat SARS coronavirus HKU3-13]
 length: 97
 id: gb|ADE34731.1|
-e-value: 3.3963e-42
+e-value: 3.45462e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|ARO76391.1| protein 13 [Severe acute respiratory syndrome-related coronavirus]
-length: 98
-id: gb|ARO76391.1|
-e-value: 7.2202e-42
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|ADE34821.1| hypothetical protein [Bat SARS coronavirus HKU3-12]
-length: 97
-id: gb|ADE34821.1|
-e-value: 1.18602e-41
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|ADE34764.1| hypothetical protein [Bat SARS coronavirus HKU3-7] >gb|ADE34777.1| hypothetical protein [Bat SARS coronavirus HKU3-8]
-length: 97
-id: gb|ADE34764.1|
-e-value: 3.59109e-41
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : sp|P0C5A6.1| RecName: Full=Protein 9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b [Bat CoV 279/2005]
-length: 97
-id: sp|P0C5A6.1|
-e-value: 7.08872e-41
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : ref|YP_009825062.1| ORF9b protein [SARS coronavirus Tor2] >sp|P59636.1| RecName: Full=ORF9b protein; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b; AltName: Full=Protein 9b [Severe acute respiratory syndrome-related coronavirus] >gb|AAP13574.1| unknown [SARS coronavirus CUHK-W1] >gb|AAP30038.1| putative uncharacterized protein 5 [SARS coronavirus BJ01] >gb|AAP33708.1| Orf9b [SARS coronavirus Frankfurt 1] >gb|AAP37025.1| unknown [SARS coronavirus TW1] >gb|AAP50496.1| putative protein [SARS coronavirus FRA] >gb|AAP51235.1| BGI-PUP7 [SARS coronavirus GD01] >gb|AAP69659.1| uncharacterized protein 9b [SARS coronavirus ZJ01] >gb|AAP72985.1| Orf9b [SARS coronavirus HSR 1] >gb|AAP94745.1| unknown [SARS coronavirus CUHK-AG01] >gb|AAP94756.1| unknown [SARS coronavirus CUHK-AG02] >gb|AAP94767.1| unknown [SARS coronavirus CUHK-AG03] >gb|AAQ94071.1| orf9b [SARS coronavirus AS] >gb|AAR86786.1| unknown [SARS coronavirus ShanghaiQXC2] >gb|AAR86796.1| unknown [SARS coronavirus ShanghaiQXC1] >gb|AAR87508.1| unknown [SARS coronavirus TW10] >gb|AAR87519.1| unknown [SARS coronavirus TW11] >gb|AAR87530.1| unknown [SARS coronavirus TW2] >gb|AAR87541.1| unknown [SARS coronavirus TW3] >gb|AAR87552.1| unknown [SARS coronavirus TW4] >gb|AAR87563.1| unknown [SARS coronavirus TW5] >gb|AAR87574.1| unknown [SARS coronavirus TW6] >gb|AAR87585.1| unknown [SARS coronavirus TW7] >gb|AAR87596.1| unknown [SARS coronavirus TW8] >gb|AAR87607.1| unknown [SARS coronavirus TW9] >gb|AAR91594.1| putative uncharacterized protein 5 [SARS coronavirus NS-1] >gb|AAS00012.1| putative protein [SARS coronavirus GZ02] >gb|AAS01075.1| orf13 [SARS coronavirus CUHK-L2] >gb|AAT52331.1| 9b [SARS coronavirus LLJ-2004] >gb|ABA02278.1| uncharacterized protein 9b [SARS coronavirus ZJ0301] >gb|ACB69857.1| putative protein [SARS coronavirus ZJ02] >gb|ACJ60690.1| ORF 9b [recombinant SARS coronavirus] >gb|ACQ82736.1| hypothetical protein sars9b [SARS coronavirus P2] >gb|ACZ71763.1| hypothetical protein sars9b [SARS coronavirus ExoN1] >gb|ACZ71778.1| hypothetical protein sars9b [SARS coronavirus wtic-MB] >gb|ACZ72001.1| hypothetical protein sars9b [SARS coronavirus MA15 ExoN1] >gb|ACZ72046.1| hypothetical protein sars9b [SARS coronavirus MA15] >gb|ADC35493.1| hypothetical protein Orf9b [SARS coronavirus HKU-39849] >gb|AYV99758.1| ORF9b [SARS coronavirus Urbani] >dbj|BAC81359.1| hypothetical protein [SARS coronavirus TWH] >dbj|BAC81373.1| hypothetical protein [SARS coronavirus TWJ] >dbj|BAC81401.1| hypothetical protein [SARS coronavirus TWS] >dbj|BAC81415.1| hypothetical protein [SARS coronavirus TWY]
-length: 98
-id: ref|YP_009825062.1|
-e-value: 1.30651e-40
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|AAZ67044.1| ORF13 [Bat SARS coronavirus Rp1]
-length: 97
-id: gb|AAZ67044.1|
-e-value: 3.08221e-40
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|AAU04659.1| orf12 [SARS coronavirus civet010] >gb|AAV49740.1| hypothetical protein [SARS coronavirus B039]
-length: 98
-id: gb|AAU04659.1|
-e-value: 3.10744e-40
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|AAT76156.1| Orf5 [SARS coronavirus TJF]
-length: 98
-id: gb|AAT76156.1|
-e-value: 3.74433e-40
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : dbj|BAC81387.1| hypothetical protein [SARS coronavirus TWK]
-length: 98
-id: dbj|BAC81387.1|
-e-value: 7.07341e-40
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|ACB69869.1| putative protein [SARS coronavirus BJ182a] >gb|ACB69880.1| putative protein [SARS coronavirus BJ182b] >gb|ACB69891.1| putative protein [SARS coronavirus BJ182-4] >gb|ACB69902.1| putative protein [SARS coronavirus BJ182-8] >gb|ACB69913.1| putative protein [SARS coronavirus BJ182-12]
-length: 98
-id: gb|ACB69869.1|
-e-value: 7.72204e-40
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|AAV91641.1| orf12 [SARS coronavirus A022]
-length: 98
-id: gb|AAV91641.1|
-e-value: 1.85678e-39
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|AGT21089.1| non-structural protein 9b [SARS coronavirus ExoN1]
-length: 98
-id: gb|AGT21089.1|
-e-value: 2.41583e-39
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : sp|Q3I5I6.1| RecName: Full=Protein 9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b [Bat SARS CoV Rp3/2004] >gb|AAZ67047.1| ORF13 [Bat SARS coronavirus Rp2] >gb|AAZ67060.1| ORF13 [Bat SARS CoV Rp3/2004]
-length: 97
-id: sp|Q3I5I6.1|
-e-value: 3.15231e-39
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|AAU04643.1| orf12 [Civet SARS CoV 007/2004]
-length: 98
-id: gb|AAU04643.1|
-e-value: 1.12157e-38
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|ACU31040.1| hypothetical protein [SARS coronavirus Rs_672/2006]
-length: 98
-id: gb|ACU31040.1|
-e-value: 1.19785e-38
-Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|AAZ67037.1| ORF9a [Bat SARS CoV Rf1/2004]
-length: 97
-id: gb|AAZ67037.1|
-e-value: 4.14801e-38
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|ANA96036.1| 9a protein [Bat coronavirus]
-length: 97
-id: gb|ANA96036.1|
-e-value: 2.82335e-34
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|AIA62286.1| hypothetical protein ORF9a [BtRf-BetaCoV/JL2012]
-length: 97
-id: gb|AIA62286.1|
-e-value: 1.00681e-33
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : pdb|2CME|B The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus]
-length: 79
-id: pdb|2CME|B
-e-value: 1.31512e-31
-Query: PALRLVDPQIQLAVTRMENAVGRDQNNVGP...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : pdb|2CME|A The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus]
-length: 78
-id: pdb|2CME|A
-e-value: 2.5792e-30
-Query: PALRLVDPQIQLAVTRMENAVGRDQNNVGP...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : pdb|2CME|C The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus] >pdb|2CME|D The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus] >pdb|2CME|F The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus] >pdb|2CME|H The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus]
-length: 76
-id: pdb|2CME|C
-e-value: 3.42546e-30
-Query: PALRLVDPQIQLAVTRMENAVGRDQNNVGP...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : pdb|2CME|E The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus] >pdb|2CME|G The crystal structure of SARS coronavirus ORF-9b protein [Severe acute respiratory syndrome-related coronavirus]
-length: 77
-id: pdb|2CME|E
-e-value: 3.56165e-30
-Query: PALRLVDPQIQLAVTRMENAVGRDQNNVGP...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|APO40587.1| ORF9b [Severe acute respiratory syndrome-related coronavirus]
-length: 96
-id: gb|APO40587.1|
-e-value: 9.31989e-16
-Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
-
-***Alignment***
-sequence : gb|KAF5273715.1| hypothetical protein FQR65_LT17127 [Abscondita terminalis]
-length: 148
-id: gb|KAF5273715.1|
-e-value: 1.96716
-Query: ALRLVDPQIQL-AVTRMENAVGRDQNN-VG...-VGPKVYPIILRLGSPLSLNMARKTLNSLE
-
-***Alignment***
-sequence : gb|TVR73958.1| DUF5103 domain-containing protein [Marinilabiliales bacterium]
-length: 431
-id: gb|TVR73958.1|
-e-value: 5.70783
-Query: SEMHPALRLVDPQIQLAVTRMENAVGRDQN...PQIQLAVTRMENAVGRDQNNVGPKVYPIIL
-
-***Alignment***
-sequence : gb|OZF82993.1| hypothetical protein FL82_16255, partial [Caenorhabditis remanei]
-length: 83
-id: gb|OZF82993.1|
-e-value: 7.07754
-Query: NAVGRDQNNVGPKVYPIILRLGSPLSLNMA...ARKTLNSLEDKAFQLTPIAVQMTKLATTEE
-
-***Alignment***
-sequence : ref|WP_151495610.1| ribonuclease R [Lactobacillus crispatus] >gb|KAB1971820.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_151495610.1|
-e-value: 7.42763
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_150352265.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8780826.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8792459.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8807147.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_150352265.1|
-e-value: 7.50036
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_065990326.1| MULTISPECIES: ribonuclease R [Lactobacillus] >gb|OCX09705.1| ribonuclease R [Lactobacillus crispatus] >gb|OXC18255.1| ribonuclease R [Lactobacillus crispatus] >gb|OXC22217.1| ribonuclease R [Lactobacillus crispatus] >gb|OXC29211.1| ribonuclease R [Lactobacillus crispatus] >gb|OXC36722.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_065990326.1|
-e-value: 7.50036
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_158181724.1| ribonuclease R [Lactobacillus crispatus] >gb|QGY94371.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_158181724.1|
-e-value: 7.50036
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_170080797.1| ribonuclease R [Lactobacillus crispatus] >gb|MBE5059115.1| ribonuclease R [Lactobacillus crispatus] >gb|NME26960.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_170080797.1|
-e-value: 7.50036
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_060461937.1| ribonuclease R [Lactobacillus crispatus] >gb|KWU04085.1| exoribonuclease R [Lactobacillus crispatus] >gb|QLK33112.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_060461937.1|
-e-value: 7.57381
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_089147093.1| ribonuclease R [Lactobacillus crispatus] >gb|OXC27462.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_089147093.1|
-e-value: 7.57381
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_089150011.1| ribonuclease R [Lactobacillus crispatus] >gb|OXC14831.1| ribonuclease R [Lactobacillus crispatus] >gb|OXC19054.1| ribonuclease R [Lactobacillus crispatus] >gb|OXC22550.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_089150011.1|
-e-value: 7.57381
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_005721134.1| ribonuclease R [Lactobacillus crispatus] >emb|STX15994.1| 3'-to-5' exoribonuclease RNase R [Lactobacillus acidophilus] >gb|AZR14972.1| ribonuclease R [Lactobacillus crispatus] >gb|EEJ68881.1| ribonuclease R [Lactobacillus crispatus JV-V01] >gb|EEU18326.1| ribonuclease R [Lactobacillus crispatus 125-2-CHN] >gb|EEX28341.1| ribonuclease R [Lactobacillus crispatus MV-3A-US]
-length: 779
-id: ref|WP_005721134.1|
-e-value: 7.57381
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_181576538.1| ribonuclease R [Lactobacillus crispatus] >gb|MBA2915182.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_181576538.1|
-e-value: 7.57381
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_060808402.1| ribonuclease R [Lactobacillus crispatus] >gb|KWX59813.1| exoribonuclease R [Lactobacillus crispatus]
-length: 780
-id: ref|WP_060808402.1|
-e-value: 7.57439
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_195923503.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_195923503.1|
-e-value: 7.64798
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_150397884.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8791878.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8795824.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8796408.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8799913.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8802857.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_150397884.1|
-e-value: 7.64798
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_101891360.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8788364.1| ribonuclease R [Lactobacillus crispatus] >gb|KAA8788372.1| ribonuclease R [Lactobacillus crispatus] >gb|PLT12488.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_101891360.1|
-e-value: 7.64798
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-
-***Alignment***
-sequence : ref|WP_101887353.1| ribonuclease R [Lactobacillus crispatus] >gb|PLA29665.1| ribonuclease R [Lactobacillus crispatus]
-length: 779
-id: ref|WP_101887353.1|
-e-value: 7.72288
-Query: VGPKVYPIILRLGSPLSLNMARKTL----N...NMARKTL----NSLEDKAFQLTPIAVQMTK
-Number of alignments: 50
+Number of alignments: 9
