@@ -7,7 +7,7 @@ from Bio.Blast import NCBIXML
 orfs = ['TRAF3', 'MAVS', 'ORF9b']
 
 for orf in orfs:
-    blast = SeqIO.read(open(orf + '.fa'), format ='fasta')
+    blast = SeqIO.read(open(orf + '.fa'), format='fasta')
     result = NCBIWWW.qblast('blastp', 'nr', blast.format('fasta'), hitlist_size=9, expect=1)
     save_blast = open(orf + '_blast.xml', 'w')
     save_blast.writelines(result.read())
@@ -41,11 +41,21 @@ for orf in orfs:
     result_handle.close()
 
 # Homologia ;)
-
 for orf in orfs:
+    orf_file = open(orf + '.fa', 'r')
+    a = orf_file.readline().split()
+    seq = ''
+    for f in orf_file.readlines()[0::]:
+        r = f.replace('\n', '')
+        seq += r
+
     result_handle = open(orf + '_blast.xml')
     blast_records = NCBIXML.read(result_handle)
     file = open(orf + '_homology.fa', 'w')
+    file.writelines(a[0] + '\n')
+    file.writelines(seq + '\n')
+
+
     for alignment in blast_records.alignments:
         for hsp in range(len(alignment.hsps)):
             if hsp != 0:
