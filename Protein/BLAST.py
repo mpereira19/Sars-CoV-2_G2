@@ -40,7 +40,7 @@ for orf in orfs:
     blast_file.close()
     result_handle.close()
 
-# Homologia ;)
+# Homologia ;
 for orf in orfs:
     result_handle = open(orf + '_blast.xml')
     blast_records = NCBIXML.read(result_handle)
