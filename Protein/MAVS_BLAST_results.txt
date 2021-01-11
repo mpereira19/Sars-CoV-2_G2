@@ -19,8 +19,6 @@ length: 540
 id: dbj|BAC77356.1|
 e-value: 0.0
 Query: MPFAEDKTYKYICRNFSNFCNVDVVEILPY...RPSPGALWLQVAVTGVLVVTLLVVLYRRRL
-e-value: 0.0
-Query: MPFAEDKTYKYICRNFSNFCNVDVVEILPY...RPSPGALWLQVAVTGVLVVTLLVVLYRRRL
 
 ***Alignment***
 sequence : ref|XP_024207932.1| mitochondrial antiviral-signaling protein isoform X2 [Pan troglodytes] >ref|XP_024207933.1| mitochondrial antiviral-signaling protein isoform X2 [Pan troglodytes] >gb|PNI62452.1| MAVS isoform 2 [Pan troglodytes]
@@ -56,4 +54,11 @@ length: 540
 id: gb|AGF94756.1|
 e-value: 0.0
 Query: MPFAEDKTYKYICRNFSNFCNVDVVEILPY...RPSPGALWLQVAVTGVLVVTLLVVLYRRRL
-Number of alignments: 8
+
+***Alignment***
+sequence : ref|XP_030860612.1| mitochondrial antiviral-signaling protein [Gorilla gorilla gorilla]
+length: 540
+id: ref|XP_030860612.1|
+e-value: 0.0
+Query: MPFAEDKTYKYICRNFSNFCNVDVVEILPY...RPSPGALWLQVAVTGVLVVTLLVVLYRRRL
+Number of alignments: 9

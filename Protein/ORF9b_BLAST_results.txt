@@ -3,62 +3,62 @@
 sequence : sp|P0DTD2.1| RecName: Full=ORF9b protein; Short=ORF9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b; AltName: Full=Protein 9b [Severe acute respiratory syndrome coronavirus 2] >pdb|6Z4U|A X-ray Crystallographic Structure of Orf9b from SARS-CoV-2 [Severe acute respiratory syndrome coronavirus 2] >pdb|6Z4U|B X-ray Crystallographic Structure of Orf9b from SARS-CoV-2 [Severe acute respiratory syndrome coronavirus 2] >pdb|7KDT|B Human Tom70 in complex with SARS CoV2 Orf9b [Severe acute respiratory syndrome coronavirus 2]
 length: 97
 id: sp|P0DTD2.1|
-e-value: 1.54204e-63
+e-value: 1.55274e-63
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : sp|Q3LZX3.1| RecName: Full=Protein 9b; AltName: Full=Accessory protein 9b; AltName: Full=ORF-9b [Bat SARS coronavirus HKU3] >gb|AAY88875.1| hypothetical protein orf9b [Bat SARS coronavirus HKU3-1] >gb|AAZ41349.1| hypothetical protein [Bat SARS coronavirus HKU3-3]
 length: 97
 id: sp|Q3LZX3.1|
-e-value: 5.11564e-44
+e-value: 5.15114e-44
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AHX37567.1| protein 13 [Rhinolophus affinis coronavirus]
 length: 98
 id: gb|AHX37567.1|
-e-value: 3.71659e-43
+e-value: 3.74239e-43
 Query: MDP-KISEMHPALRLVDPQIQLAVTRMENA...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AAZ41338.1| hypothetical protein [Bat SARS coronavirus HKU3-2] >gb|QND76031.1| ORF9b [Bat SARS coronavirus HKU3] >gb|QND76045.1| ORF9b [Bat SARS coronavirus HKU3]
 length: 97
 id: gb|AAZ41338.1|
-e-value: 6.59199e-43
+e-value: 6.63774e-43
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|ADE34788.1| hypothetical protein [Bat SARS coronavirus HKU3-9] >gb|ADE34799.1| hypothetical protein [Bat SARS coronavirus HKU3-10] >gb|ADE34810.1| hypothetical protein [Bat SARS coronavirus HKU3-11]
 length: 97
 id: gb|ADE34788.1|
-e-value: 1.17902e-42
+e-value: 1.1872e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AAZ67041.1| ORF9a [Bat SARS CoV Rm1/2004]
 length: 97
 id: gb|AAZ67041.1|
-e-value: 1.84863e-42
+e-value: 1.86146e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AVP78050.1| hypothetical protein [Bat SARS-like coronavirus]
 length: 97
 id: gb|AVP78050.1|
-e-value: 2.22761e-42
+e-value: 2.24307e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|AVP78039.1| hypothetical protein [Bat SARS-like coronavirus]
 length: 97
 id: gb|AVP78039.1|
-e-value: 2.77409e-42
+e-value: 2.79334e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 
 ***Alignment***
 sequence : gb|ADE34731.1| hypothetical protein [Bat SARS coronavirus HKU3-4] >gb|ADE34742.1| hypothetical protein [Bat SARS coronavirus HKU3-5] >gb|ADE34753.1| hypothetical protein [Bat SARS coronavirus HKU3-6] >gb|ADE34832.1| hypothetical protein [Bat SARS coronavirus HKU3-13]
 length: 97
 id: gb|ADE34731.1|
-e-value: 3.45462e-42
+e-value: 3.4786e-42
 Query: MDPKISEMHPALRLVDPQIQLAVTRMENAV...KAFQLTPIAVQMTKLATTEELPDEFVVVTV
 Number of alignments: 9
