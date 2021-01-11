@@ -1,5 +1,5 @@
-#from Bio.Align.Applications import ClustalOmegaCommandline
-#from Bio.Align.Applications import ClustalwCommandline
+# Multiple Alignment e Filogenia
+
 from Bio import AlignIO
 from Bio import Phylo
 
@@ -13,7 +13,5 @@ for orf in orfs:
     align = AlignIO.read(orf + '_alignment.clustal_num', 'clustal')
     print(align)
 
-
-for orf in orfs:
     tree = Phylo.read(orf + '_tree.dnd', 'newick')
     Phylo.draw_ascii(tree)
