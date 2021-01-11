@@ -1,25 +1,19 @@
-from Bio.Align.Applications import ClustalOmegaCommandline
-from Bio.Align.Applications import ClustalwCommandline
+#from Bio.Align.Applications import ClustalOmegaCommandline
+#from Bio.Align.Applications import ClustalwCommandline
 from Bio import AlignIO
 from Bio import Phylo
 
 orfs = ['TRAF3', 'MAVS', 'ORF9b']
 
-for orf in orfs:
-    in_file = orf + '_homology.fa'
-    out_file = orf + '_alignment.aln'
-    clustalw_cline = ClustalwCommandline(infile=in_file, outfile=out_file)
-    print(clustalw_cline)
-    clustalw_cline()
-
+# ficheiros '..._alignment.clustal_num' e '..._tree.dnd' foram obtidos através de Clustal Omega online!
 
 for orf in orfs:
     filename = orf + '_alignment.aln'
     format = 'clustal'
-    align = AlignIO.read(orf + '_alignment.aln', 'clustal')
+    align = AlignIO.read(orf + '_alignment.clustal_num', 'clustal')
     print(align)
 
 
-#for orf in orfs:
-#    tree = Phylo.read(orf + '_homology.dnd', 'newick')
-#    Phylo.draw_ascii(tree)
+for orf in orfs:
+    tree = Phylo.read(orf + '_tree.dnd', 'newick')
+    Phylo.draw_ascii(tree)
