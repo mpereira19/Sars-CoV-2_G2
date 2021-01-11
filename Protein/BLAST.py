@@ -42,19 +42,9 @@ for orf in orfs:
 
 # Homologia ;)
 for orf in orfs:
-    orf_file = open(orf + '.fa', 'r')
-    a = orf_file.readline().split()
-    seq = ''
-    for f in orf_file.readlines()[0::]:
-        r = f.replace('\n', '')
-        seq += r
-
     result_handle = open(orf + '_blast.xml')
     blast_records = NCBIXML.read(result_handle)
     file = open(orf + '_homology.fa', 'w')
-    file.writelines(a[0] + '\n')
-    file.writelines(seq + '\n')
-
 
     for alignment in blast_records.alignments:
         for hsp in range(len(alignment.hsps)):

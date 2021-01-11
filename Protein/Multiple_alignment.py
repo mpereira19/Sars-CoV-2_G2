@@ -1,5 +1,5 @@
-#from Bio.Align.Applications import ClustalOmegaCommandline
-#from Bio.Align.Applications import ClustalwCommandline
+from Bio.Align.Applications import ClustalOmegaCommandline
+from Bio.Align.Applications import ClustalwCommandline
 from Bio import AlignIO
 from Bio import Phylo
 
