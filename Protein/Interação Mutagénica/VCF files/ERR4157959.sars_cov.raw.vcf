@@ -1,0 +1,40 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##bcftoolsVersion=1.9+htslib-1.9
+##bcftoolsCommand=mpileup -Ou -f Sars_cov_2.ASM985889v3.dna.toplevel.fa ERR4157959_paired.pe.aln.sorted.bam
+##reference=file://Sars_cov_2.ASM985889v3.dna.toplevel.fa
+##contig=<ID=MN908947.3,length=29903>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Mann-Whitney U test of Read Position Bias (bigger is better)">
+##INFO=<ID=MQB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality Bias (bigger is better)">
+##INFO=<ID=BQB,Number=1,Type=Float,Description="Mann-Whitney U test of Base Quality Bias (bigger is better)">
+##INFO=<ID=MQSB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality vs Strand Bias (bigger is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric.">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AF1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele frequency (assuming HWE)">
+##INFO=<ID=AF2,Number=1,Type=Float,Description="Max-likelihood estimate of the first and second group ALT allele frequency (assuming HWE)">
+##INFO=<ID=AC1,Number=1,Type=Float,Description="Max-likelihood estimate of the first ALT allele count (no HWE assumption)">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Root-mean-square mapping quality of covering reads">
+##INFO=<ID=FQ,Number=1,Type=Float,Description="Phred probability of all samples being the same">
+##INFO=<ID=PV4,Number=4,Type=Float,Description="P-values for strand bias, baseQ bias, mapQ bias and tail distance bias">
+##INFO=<ID=G3,Number=3,Type=Float,Description="ML estimate of genotype frequencies">
+##INFO=<ID=HWE,Number=1,Type=Float,Description="Chi^2 based HWE test P-value based on G3">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##bcftools_callVersion=1.9+htslib-1.9
+##bcftools_callCommand=call -Ov -vc; Date=Sun Jan 31 06:37:06 2021
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	ERR4157959_paired.pe.aln.sorted.bam
+MN908947.3	241	.	C	T	221.999	.	DP=255;VDB=0.000140325;SGB=-0.693147;MQSB=0.949549;MQ0F=0;AF1=1;AC1=2;DP4=0,0,125,116;MQ=60;FQ=-281.989	GT:PL	1/1:255,255,0
+MN908947.3	3037	.	C	T	221.999	.	DP=250;VDB=0.00366389;SGB=-0.693147;MQSB=1;MQ0F=0;AF1=1;AC1=2;DP4=0,0,144,90;MQ=60;FQ=-281.989	GT:PL	1/1:255,255,0
+MN908947.3	14408	.	C	T	221.999	.	DP=248;VDB=0.999583;SGB=-0.693147;MQSB=0.832875;MQ0F=0;AF1=1;AC1=2;DP4=0,0,149,81;MQ=59;FQ=-281.989	GT:PL	1/1:255,255,0
+MN908947.3	20132	.	C	T	225.009	.	DP=233;VDB=0.000927966;SGB=-0.693147;RPB=0.823434;MQB=0.963227;MQSB=0.881404;BQB=0.170493;MQ0F=0;AF1=0.5;AC1=1;DP4=76,47,57,36;MQ=59;FQ=225.007;PV4=1,0.0205761,1,0.368182	GT:PL	0/1:255,0,255
+MN908947.3	23403	.	A	G	221.999	.	DP=249;VDB=0.400928;SGB=-0.693147;MQSB=0.911689;MQ0F=0;AF1=1;AC1=2;DP4=0,0,173,62;MQ=60;FQ=-281.989	GT:PL	1/1:255,255,0
+MN908947.3	28881	.	G	A	221.999	.	DP=242;VDB=0.885267;SGB=-0.693147;MQSB=0.962903;MQ0F=0;AF1=1;AC1=2;DP4=0,0,155,40;MQ=58;FQ=-281.989	GT:PL	1/1:255,255,0
+MN908947.3	28882	.	G	A	221.999	.	DP=246;VDB=0.864495;SGB=-0.693147;MQSB=0.961207;MQ0F=0;AF1=1;AC1=2;DP4=0,0,154,40;MQ=58;FQ=-281.989	GT:PL	1/1:255,255,0
+MN908947.3	28883	.	G	C	221.999	.	DP=246;VDB=0.871058;SGB=-0.693147;MQSB=0.953525;MQ0F=0;AF1=1;AC1=2;DP4=0,0,153,41;MQ=58;FQ=-281.989	GT:PL	1/1:255,255,0

@@ -1,0 +1,62 @@
+docker run -v ~/Labs:/data -it quay.io/biocontainers/fastqc:0.11.8--1 bash
+cd data
+fastqc ERR4395294_1.fastq.gz
+fastqc ERR4395294_2.fastq.gz
+fastqc ERR4157959_1.fastq.gz
+fastqc ERR4157959_2.fastq.gz
+exit
+
+
+# Após uma breve análise percebemos que a amostra da variante espanhola continha ainda os adaptadores de sequênciação pelo que será necessário removê-los.
+# usr/local/share/trimmomatic-0.35-6/adapters/NexteraPE-PE.fa # caminho para adaptador NextEra
+
+
+docker run --rm -v ~/Labs:/data -it quay.io/biocontainers/trimmomatic:0.35--6 bash
+cd data
+trimmomatic PE ERR4395294_1.fastq.gz ERR4395294_2.fastq.gz output_ERR4395294_1_paired.fastq.gz output_ERR4395294_1_unpaired.fastq.gz output_ERR4395294_2_paired.fastq.gz output_ERR4395294_2_unpaired.fastq.gz ILLUMINACLIP:/usr/local/share/trimmomatic-0.35-6/adapters/NexteraPE-PE.fa:2:30:10 LEADING:5 TRAILING:5 SLIDINGWINDOW:4:10 MINLEN:36 AVGQUAL:30
+trimmomatic PE ERR4157959_1.fastq.gz ERR4157959_2.fastq.gz output_ERR4157959_1_paired.fastq.gz output_ERR4157959_1_unpaired.fastq.gz output_ERR4157959_2_paired.fastq.gz output_ERR4157959_2_unpaired.fastq.gz LEADING:5 TRAILING:5 SLIDINGWINDOW:4:10 MINLEN:36 AVGQUAL:30
+exit
+
+
+docker run -v ~/Labs:/data -it quay.io/biocontainers/fastqc:0.11.8--1 bash
+cd data
+fastqc output_ERR4395294_1_paired.fastq.gz
+fastqc output_ERR4395294_2_paired.fastq.gz
+fastqc output_ERR4157959_1_paired.fastq.gz
+fastqc output_ERR4157959_2_paired.fastq.gz
+exit
+
+
+docker run --rm -v ~/Labs:/data -it biocontainers/bwa:v0.7.17-3-deb_cv1 bash
+bwa index Sars_cov_2.ASM985889v3.dna.toplevel.fa.gz
+bwa aln Sars_cov_2.ASM985889v3.dna.toplevel.fa.gz output_ERR4395294_1_paired.fastq.gz > ERR4395294_1_paired.sai
+bwa aln Sars_cov_2.ASM985889v3.dna.toplevel.fa.gz output_ERR4395294_2_paired.fastq.gz > ERR4395294_2_paired.sai
+bwa aln Sars_cov_2.ASM985889v3.dna.toplevel.fa.gz output_ERR4157959_1_paired.fastq.gz > ERR4157959_1_paired.sai
+bwa aln Sars_cov_2.ASM985889v3.dna.toplevel.fa.gz output_ERR4157959_2_paired.fastq.gz > ERR4157959_2_paired.sai
+
+
+bwa sampe Sars_cov_2.ASM985889v3.dna.toplevel.fa.gz ERR4395294_1_paired.sai ERR4395294_2_paired.sai output_ERR4395294_1_paired.fastq.gz output_ERR4395294_2_paired.fastq.gz > ERR4395294_paired.pe.aln.sam
+bwa sampe Sars_cov_2.ASM985889v3.dna.toplevel.fa.gz ERR4157959_1_paired.sai ERR4157959_2_paired.sai output_ERR4157959_1_paired.fastq.gz output_ERR4157959_2_paired.fastq.gz > ERR4157959_paired.pe.aln.sam
+exit
+
+
+docker run --rm -v ~/Labs:/data -it biocontainers/samtools:v1.7.0_cv4 bash 
+samtools view -Sb ERR4395294_paired.pe.aln.sam > ERR4395294_paired.pe.aln.bam
+samtools view -Sb ERR4157959_paired.pe.aln.sam > ERR4157959_paired.pe.aln.bam
+samtools sort ERR4395294_paired.pe.aln.bam -o ERR4395294_paired.pe.aln.sorted.bam
+samtools sort ERR4157959_paired.pe.aln.bam -o ERR4157959_paired.pe.aln.sorted.bam
+samtools index ERR4395294_paired.pe.aln.sorted.bam
+samtools index ERR4157959_paired.pe.aln.sorted.bam
+
+samtools flagstat ERR4395294_paired.pe.aln.sorted.bam
+samtools flagstat ERR4157959_paired.pe.aln.sorted.bam
+exit
+
+
+# descomprimir doc Sars_cov_2.*
+gunzip Sars_cov_2*
+
+docker run --rm -v ~/Labs:/data -it quay.io/biocontainers/bcftools:1.9--h68d8f2e_7 bash
+cd data
+bcftools mpileup -Ou -f Sars_cov_2.ASM985889v3.dna.toplevel.fa ERR4157959_paired.pe.aln.sorted.bam | bcftools call -Ov -vc > ERR4157959.sars_cov.raw.vcf
+bcftools mpileup -Ou -f Sars_cov_2.ASM985889v3.dna.toplevel.fa ERR4395294_paired.pe.aln.sorted.bam | bcftools call -Ov -vc > ERR4395294.sars_cov.raw.vcf

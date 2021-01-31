@@ -4,8 +4,6 @@
 Trabalho de Labs 2020/2021
 
 Realizado por:
-  João Monteiro
-  Juliana Pereira
-  Mariana Pereira
- 
-LMAO
+  João Monteiro pg44379
+  Juliana Pereira pg42873
+  Mariana Pereira pg42875

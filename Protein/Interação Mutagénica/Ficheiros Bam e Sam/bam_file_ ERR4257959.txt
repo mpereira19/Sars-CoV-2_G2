@@ -1,0 +1,5 @@
+Devido ao facto de o ficheiro "ERR4157959_paired.pe.aln.bam" ter mais de 100Mb este não puderá estar no nosso
+github que apenas aceita ficheiros até 100Mb. 
+Como solução deixamos este  link para ter acesso a este ficheiro.
+
+https://uminho365-my.sharepoint.com/:f:/g/personal/pg42875_uminho_pt/EqT0hdXqXSxHvdmJFv5mpzMBWQxkxocF5UNCnQCCMoiGgQ?e=w6nbgS
